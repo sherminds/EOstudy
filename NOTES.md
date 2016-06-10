@@ -94,9 +94,10 @@ Other useful commands
 To clear the mail queue:
 ```
 sudo postsuper -d ALL
-```i
+```
 
-Change From
+# Change From name
+
 ```
 printf "From: Sender Name <sender@domain.com>\nTo: recipient@domain.com\nSubject: Subject\n\nBody\n" | /usr/sbin/sendmail -F "Sender Name" -f "sender@domain.com" "flo.debarre@gmail.com"
 ```
