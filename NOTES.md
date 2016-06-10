@@ -4,14 +4,12 @@ SOURCE: <http://www.developerfiles.com/how-to-send-emails-from-localhost-mac-os-
 
 How to send emails from localhost (MAC OS X El Capitan)
 
-This tutorial is about how to configure Postfix for Mac OS X. If you are using windows, you may want to try this approach.
-
 ## Step 1. Edit Postfix config file
 Open a terminal and edit the file main.cf
 
 ```{sh}
 sudo vi /etc/postfix/main.cf
-``
+```
 
 First check Postfix is configured correctly, look for the following lines (They are probably separated):
 
