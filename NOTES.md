@@ -19,7 +19,6 @@ mail_owner = _postfix
 setgid_group = _postdrop
 Now add the following lines at the very end of the file:
 
-```
 # Gmail SMTP
 relayhost=smtp.gmail.com:587
 
