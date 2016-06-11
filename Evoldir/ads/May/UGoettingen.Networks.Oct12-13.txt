@@ -1,11 +1,49 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+Dear colleagues and friends,
+we are happy and proud to announce that the interdisciplinary symposium
+'NETWORKS IN BIOLOGY' will take place October, 12th-13th 2016 at the
+Georg-August-University Göttingen, Germany.
 
-<B>/brian/evoldir/Conferences/UGoettingen.Networks.Oct12-13</B>
-<P>
-</BODY>
-</HTML>
+Networks are a common theme in all biological processes. Since the
+organization and structure and thus the function of biological networks
+can rarely be studied directly, different specialized approaches such as
+mathematical modelling, empirical studies or the combination of those
+are being developed in various biological disciplines. The main aim of
+the 'NETWORKS IN BIOLOGY' symposium is to bring researchers of different
+research fields together to reveal commonalities of different biological
+networks and overlaps in the used methodology.
+
+Invited Speakers:
+DAMIEN FARINE (MPI for Ornithology, Konstanz, Germany)
+MARC TIMME (MPI for Dynamics & Self-Organization, Göttingen, Germany)
+JOHANNES JAEGER (Konrad-Lorenz Institute, Vienna, Austria)
+STEFAN SCHEU (Department Animal Ecology, Göttingen, Germany)
+ARNE TRAULSEN (MPI for Evolutionary Biology, Plön, Germany)
+LAUREN BRENT (Centre Research Animal Behaviour, Uni Exeter, UK)
+
+Please find the program as well as travel information here:
+http://goevol.uni-goettingen.de/index.php?id=meeting2016
+
+The registration will be open until August, 5th 2016:
+http://goevol.uni-goettingen.de/index.php?id=addgroup0
+
+Since the interdisciplinary nature of this meeting profits from extensive
+exchange among all participants, we encourage all of you to submit an
+abstract for a contributed oral or a poster presentation. Please specify
+your choice during the registration process.
+
+This conference is organized by the GOEvol network. For more information
+about us, visit: http://goevol.uni-goettingen.de
+
+If you have any question, please feel free to contact us at any time via:
+goevolnetwork@gmail.com
+
+We are looking forward to meeting you in Göttingen!
+
+The GOEvol Team
+http://www.goevol.uni-goettingen.de/
+goevolnetwork@gmail.com
+Twitter: @GOEEvolution
+Facebook: http://alturl.com/qom8b
+
+"Posnien, Nico" <Nico.Posnien@biologie.uni-goettingen.de>
+

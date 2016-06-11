@@ -1,11 +1,29 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+Dear all,
 
-<B>/brian/evoldir/Conferences/Cambridge_UK.PlantEvolution.Sep15-16</B>
-<P>
-</BODY>
-</HTML>
+Registration is now open for the second UK Plant Evolution meeting, to be
+held at Cambridge University Botanic Garden on 15 and 16 September 2016.
+
+We have a great line-up of invited speakers including Doug Soltis, Sandy
+Knapp, Chiara Airoldi, Robert Scotland, Vincent Savolainen, Minsung Kim,
+Kirsten Bomblies, and Dmitry Filatov.
+
+Registration is only 40 (student) or 60 (standard), including lunches
+and all tea/coffee breaks, and the opportunity to tour the Cambridge
+University Botanic Garden and/or herbarium.
+
+To register or submit an abstract see:
+http://www.plantsci.cam.ac.uk/research/sambrockington/uk-plant-evolution-2016
+
+or email bjg26@cam.ac.uk or sb771@cam.ac.uk with any questions,
+
+Please do circulate this amongst friends and colleagues who may be
+interested,
+
+best wishes,
+
+Sam Brockington and Beverley Glover
+
+1 Brookside | Cambridge University Botanic Gardens | Cambridge | CB21JE
+
+"sb771@cam.ac.uk" <sb771@cam.ac.uk>
+

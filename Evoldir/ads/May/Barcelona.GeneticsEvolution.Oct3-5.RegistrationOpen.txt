@@ -1,11 +1,50 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+XXI Seminario de Genetica de Poblaciones y Evolucion
 
-<B>/brian/evoldir/Conferences/Barcelona.GeneticsEvolution.Oct3-5.RegistrationOpen</B>
-<P>
-</BODY>
-</HTML>
+Sitges, October 3-5, 2016
+
+                           REGISTRATION OPEN
+
+We are pleased to announce that the registration period for the XXI
+Seminario de Genetica de Poblaciones y Evolucion (XXISGPE) is already
+open. This workshop will be held October 3-5, 2016 at the Hotel
+Calipolis in Sitges (Barcelona, Spain).
+
+All the information about registration fees and types of accommodation
+can be found in the workshop webpage
+
+http://XXISGPE.uab.es/
+
+To register for the workshop, please follow the link.
+
+http://xxisgpe.uab.es/base/base3.asp?sitio=XXISGPE&anar=inscri
+
+The XXISGPE will comprise only invited talks (45 min presentation + 15
+min discussion) and oral contributions (25 min presentation + 5 min
+discussion). Speakers can give their talks in English or Spanish.
+
+For those wishing to present an oral contribution, we inform that
+abstract submission will be open from February 1 to June 30, 2016. In
+order to submit or present an oral contribution you must be registered
+for the workshop. Please don't delay your response, space is limited.
+We look forward to your participation!
+
+Organizing Committee
+
+Alfredo Ruiz
+Mauro Santos
+Antonio Barbadilla
+Mario Caceres
+
+Isaac Salazar-Ciudad
+
+                    Contact
+
+                    Alfredo Ruiz
+                    Departament de Genetica i de Microbiologia
+Facultat de Biociencies, Edifici C
+Universitat Aut0noma de Barcelona
+Tel. +34 93 581 2729
+sgpe.sitges@uab.es
+
+Alfredo Ruíz Panadero <Alfredo.Ruiz@uab.cat>
+

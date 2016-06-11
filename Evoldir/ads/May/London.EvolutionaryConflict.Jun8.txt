@@ -1,11 +1,59 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+posting
+Reply-To: "Hill, Mark" <mark.hill.13@ucl.ac.uk>
 
-<B>/brian/evoldir/Conferences/London.EvolutionaryConflict.Jun8</B>
-<P>
-</BODY>
-</HTML>
+London_evolutionary_conflict_June_8th
+
+Dear colleagues,
+
+Registration for 2016 CEE (Centre for Ecology & Evolution
+- https://www.ucl.ac.uk/cee)
+Summer Symposium 2016 entitled: "War and peace: the dynamics of
+evolutionary conflict" is open and there are still spaces remaining.
+
+We are delighted to welcome 9 fantastic speakers from leading UK
+research institutions:
+Max Reuter - University College London
+Judith Mank - University College London
+Rebecca Dean - University College London
+Ted Morrow - University of Sussex
+Rhonda Snook - University of Sheffield
+Stu Wigby - University of Oxford
+Nina Wedell - University of Exeter
+Tom Price - University of Liverpool
+Susan Johnston - University of Edinburgh
+The speakers will cover 4 main themes:
+
+-   Intralocus and interlocus sexual conflicts
+-   Intragenomic conflicts
+-   Genomics of sexual dimorphism
+
+This one-day conference will be held in the Sir Alexander Fleming
+Building at Imperial College London, South Kensington, on June 8th.
+
+As well as these 9 invited talks we also invite applications from PhD
+students to give 3 short talks during the conference, and present
+posters as well.  The focussed nature of this conference provides an
+excellent opportunity for younger researchers to present and discuss
+their work with leaders of the field. Indeed, it also serves as a good
+practice run for much larger international conferences.
+
+To register please visit the registration page linked below, and for
+more info visit the event website.
+
+Deadline for registration and abstract submission is May 20^th.
+
+We look forward to seeing you on the 8^th June!
+
+On behalf of the CEE Summer Symposium organisation committee.
+
+(Brian Hollis, Kevin Fowler, Mark Hill, Filip Ruzicka)
+
+Registration page:
+http://onlinestore.ucl.ac.uk/browse/extra_info.asp?compid=1&modid=2&deptid=128&catid%6&prodid=1400
+
+Event website:
+http://ceesymposium2016.weebly.com/
+Twitter updates: #ceess2016
+
+"Hill, Mark" <mark.hill.13@ucl.ac.uk>
+

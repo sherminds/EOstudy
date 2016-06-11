@@ -1,11 +1,70 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+Dear colleagues,
 
-<B>/brian/evoldir/Conferences/Helsinki.WildPlantPathoSystems.Aug29-31</B>
-<P>
-</BODY>
-</HTML>
+We are pleased to announce the 2nd international meeting on
+
+WILD PLANT PATHOSYSTEMS
+
+29-31 August 2016, Helsinki
+
+*Please remember to secure your place as the number of participants is 
+limited!*
+
+Conference registration & welcome reception take place on Sunday evening 
+28 August. For those interested, we will organize a post-conference 
+excursion to the Åland Islands to visit the classic metapopulation study 
+system 1-3 September.
+
+Research carried out on plant-pathogen interactions has provided 
+breakthroughs in how ecological, molecular and evolutionary dynamics are 
+coupled to produce the patterns on infection we observe in nature. This 
+conference brings together scientists working in cutting edge areas of 
+plant-pathogen interactions including coevolution, epidemiology, 
+evolutionary genomics, pathogen movement across the agro-ecological 
+interface and community level processes.
+
+Registration opens on 14 March and closes on 31 May 2016. Please note 
+that number of participants is limited and slots will be allocated on a 
+first-come first-served basis. The registration fee is 250 euros (150 
+euros MSc and PhD students).
+
+Conference website: http://allaine.it.helsinki.fi/?p=244
+Contact: krista.raveala@helsinki.fi and anna-liisa.laine@helsinki.fi
+
+Confirmed speakers include
+Janis Antonovics (University of Virginia)
+Joy Bergelson (University of Chicago)
+Jeremy Burdon (CSIRO Canberra)
+Pascal Frey (INRA, University of Lorraine)
+Greg Gilbert (University of California, Santa Cruz)
+Eric Holub (University of Warwick)
+Michael Hood (Amherst College)
+Anna-Liisa Laine (University of Helsinki)
+Ales Lebeda (Palacky University, Olomouc)
+Marie-Laure Desprez-Loustau (INRA)
+Bruce McDonald (ETH Zurich)
+Erin Mordecai (Stanford University)
+Alison G. Power (Cornell University)
+Laura Rose (Heinrich-Heine-Universität)
+Michael Shaw (University of Reading)
+Samuel Soubeyrand (INRA)
+Eva Stukenbrock (Kiel University & MPI for Evolutionary Biology)
+Peter Thrall (CSIRO Canberra)
+John Walsh (University of Warwick)
+
+-- 
+Professor Anna-Liisa Laine
+
+Center-of-Excellence in Metapopulation Biology
+Department of Biosciences
+PO Box 65 (Viikinkaari 1)
+FI-00014 University of Helsinki, Finland
+
+tel. +358 2 941 57750
+allaine.it.helsinki.fi
+helsinki.fi/science/metapop/
+twitter: @annaliisalaine
+
+  
+
+Anna-Liisa Laine <anna-liisa.laine@helsinki.fi>
+

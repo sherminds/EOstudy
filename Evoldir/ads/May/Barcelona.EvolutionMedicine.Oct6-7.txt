@@ -1,11 +1,64 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+Recognized international scientists in the evolution and medicine will
+be gathered in the 15th edition of the Centre for Genomic Regulation
+Symposium that will take place in Barcelona on the 6-7 of October under
+the title "Evolution & Medicine" in Barcelona, Spain.
 
-<B>/brian/evoldir/Conferences/Barcelona.EvolutionMedicine.Oct6-7</B>
-<P>
-</BODY>
-</HTML>
+This open meeting will provide a unique opportunity to bring together
+researchers and scientists to explore topics in cancer evolution, the
+emergence of resistance to antibiotics and other drugs, the origin and
+evolution of pathogens, and the evolutionary influence on our own
+construction and predisposition to various diseases.
+
+Evolutionary theory forms the basis for our understanding of the
+natural world. The development, behaviour and physiology of our own
+species has been shaped by million of years of evolution. Furthermore,
+the interaction of humans with species that directly affect our health
+and survival is constantly being modified by evolutionary forces
+through natural or artificial selection.
+
+Registration is now open to the scientific community and can be done
+through the CRG Symposium website until September 16th. Participants
+are invited to submit their abstracts, a number of which will be
+selected for short talks.
+
+You cannot miss this 15th edition of the CRG Symposium! Capacity is
+limited, so secure your place early!
+
+Confirmed speakers:
+
+Yegor BAZYKIN, Skolkovo Institute of Science and Technology, Moscow RU
+
+Arturo CASADEVALL, Albert Einstein College of Medicine, New York USA
+Inaki COMAS, Centre for Public Health Research, Genomics and Health,
+University of Valencia ES
+Nicole MIDEO, Department of Ecology & Evolutionary Biology, University
+of Toronto CA
+Randolph NESSE, The Center for Evolution & Medicine, Arizona State
+University USA
+Anna PANCHENKO, National Center for Biotechnology Information, National
+Institutes of Health, Bethesda USA
+David ROOS, Department of Biology, University of Pennsylvania USA
+Shamil SUNYAEV, Division of Genetics, Department of Medicine, Brigham &
+Women's Hospital and Harvard Medical School, Boston USA
+Erdal TOPRAK, UT Southwestern Medical Center, Texas USA
+
+Timing and Location of the Meeting:
+The Symposium starts on October 6 and finalize October 7. The meeting
+will take place at the PRR Auditorium (c/ Aiguader, 88, Barcelona
+Spain)
+
+Registration and Costs: Registration is free and Now Open.  Capacity is
+limit so first come - first served basis
+
+Abstract submission:  Symposium Organisers invite the submission of
+abstracts before 15 July 2016. Just authors of selected abstracts will
+be assigned slot to give a short talk during the CRG 2016 Symposium
+
+See CRG website for more information:
+http://www.crg.eu/en/content/events/15th-crg-symposium-evolution-and-me
+dicine-6-7-october-2016-barcelona-spain
+
+Please contact Laura Prat: laura.prat@crg.eu in case of any doubt.
+
+Laura Prat Busquets <laura.prat@crg.eu>
+

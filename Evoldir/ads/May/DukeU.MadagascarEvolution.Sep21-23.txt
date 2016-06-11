@@ -1,11 +1,97 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+September 21 - 23, 2016:  This symposium will cover topics from the
+evolution of cognition, One Health, disease transmission, comparative
+genomics, biogeography, evolutionary conservation genetics, and more!
 
-<B>/brian/evoldir/Conferences/DukeU.MadagascarEvolution.Sep21-23</B>
-<P>
-</BODY>
-</HTML>
+Details and registration information can be found
+at: http://lemur.duke.edu/50/
+Register by June 1, 2016 to secure discounted rates.
+
+September 21:  Welcome reception for speakers and attendees
+
+September 22:
+Morning Session:  Cognition & Behavior
+9:00 - 9:25: Brian Hare: "Lemurs have gone from ignored to adored in
+cognitive research thanks to the Duke Lemur Center"
+9:30 - 9:55: Elizabeth M. Brannon: "Counting on lemurs to uncover the
+evolutionary origins of quantitative cognition"
+10:00 - 10:25: Evan MacLean: "Lemur Diversity as a Natural Experiment
+in Cognitive Evolution"
+10:30 - 11:00 (break)
+11:00 - 11:25:  Christine Drea: "Female Lemurs Rule! Gaining Proximate
+and Ultimate Understanding of Social Dominance via Comparative Studies"
+11:30 - 11:55: Peter Kappeler:  "The evolution of lemur social
+systems"
+Afternoon Session:  Evolution & One Health
+1:00 - 1:25: Anne-Claire Fabre: "The evolution of prehensile behaviour
+and forelimb morphology in prosimians"
+1:30 - 1:55: David Weisrock: "What do we really know about mouse
+lemur species diversity?"
+2:00 - 2:30: Marina B. Blanco: "Dwarf lemur biodiversity through the
+lens of hibernation"
+2:30 - 2:55 (break)
+3:00 - 3:25: Sheena Faherty: "Gene expression and physiological
+extremes in primate hibernation"
+3:30 - 3:55: Erin McKenney: "Gut Instincts: Lemur microbial community
+dynamics in health and disease"
+4:00 - 4:25: Fidy Rasambainarivo: "One island, one health: transmission
+of pathogens between species at the human-wildlife interface"
+4:30 - 4:55: Meredith Barrett: "Impacts of environmental change on
+lemur health"
+5:00 - 5:25: Peter Larsen: "Pathogen discovery in Madagascar: the
+utility of next-generation disease surveillance for lemur
+conservation"
+
+September 23:
+Morning Session:  Cognition & Biomedicine
+9:00 - 9:25: Michael Platt: "The Evolution of Visual Decision Making in
+Primates"
+9:30 - 9:55: Laurie Santos: "Lemur Cognition: Some Insights and Open
+Questions"
+10:00 - 10:25: Jeffrey Rogers: "Decoding mouse lemurs: DNA sequencing,
+comparative genomics and the remarkable biology of an emerging research
+model"
+10:30 - 11:00 (break)
+11:00 - 11:25: Fabienne Aujard: "The mouse lemur as a model for
+research on aging"
+11:30 - 11:55: Steven N. Austad: "Small bodied primates:  a critical
+need for aging research"
+Afternoon Session:  Conservation & Biogeography
+1:00 - 1:25:  Alex Dehgan: "Conservation 3.0 - The Future of
+Conservation and Madagascar"
+1:30 - 1:55: Charlie Nunn: "Cookstoves, Respiratory Health, and
+Conservation of Lemur Biodiversity in SAVA, Madagascar"
+2:00 - 2:30: Kathleen Muldoon: "Biogeographic Evolution of
+Madagascar's Primate Communities: Endemism, Elevation, and the Fossil
+Record"
+2:30 - 2:55 (break)
+3:00 - 3:25: Jason L. Brown: "Predicting the genetic consequences of
+future climate change: the power of coupling spatial demography, the
+coalescent, and historical landscape changes"
+3:30 - 3:55: Jorg U. Ganzhorn: "Tipping points in lemur ecology and
+conservation"
+4:00 - 4:25: Jonah Ratsimbazafy: "Lemur conservation in Madagascar:
+Good news in bad times"
+4:30 - 4:55: Patricia Wright: "Lemur Conservation in Madagascar-the
+next ten years"
+Friday Evening Events: Washington Duke Inn
+6:00 - 7:00 p.m.: Cocktail reception
+7:00 - 8:30 p.m.: Plated dinner with Plenary Speaker, Dame Alison
+Richard
+8:30 - 9:30 p.m.: Music and dancing with Malagasy world beat musician,
+Razia Said
+
+For questions and further information, please email:
+anne.yoder@duke.edu
+
+Anne D. Yoder, Professor
+Department of Biology
+Duke University, Box 90338
+BioSci 315 Science Drive
+Durham, NC 27708
+anne.yoder@duke.edu
+http://yoderlab.org
+Director, Duke Lemur Center
+http://lemur.duke.edu/50/
+
+Anne Yoder <adyoder@duke.edu>
+

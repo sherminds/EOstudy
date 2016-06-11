@@ -32,7 +32,7 @@ do
   cat ${typeevent}_tmp2.txt | cut -d, -f1 | while read line
   do
     echo $line
-curl "http://life.mcmaster.ca/cgi-bin/my_wrap/brian/evoldir/${typeevent}/${line}" > ads/${1}/${line}.txt
+  curl "http://life.mcmaster.ca/~brian/evoldir/${typeevent}/${line}" > ads/${1}/${line}.txt
   done
 done
 

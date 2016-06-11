@@ -1,11 +1,33 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+The  dead line for the  20th Evolutionary Biology Meeting at Marseilles
+(September 20-23 2016),  is June 30 2016
 
-<B>/brian/evoldir/Conferences/Marseilles.20thEvolBiol.Sep20-23.DeadlineJun30</B>
-<P>
-</BODY>
-</HTML>
+The following subjects will be discussed:
+
+Transposon and evolution ;
+
+  Evolutionary biology concepts and modeling;
+
+  Biodiversity and Systematics;
+
+   Comparative genomics ans post-genomics (at all taxomic levels);
+   
+ Environment and biological evolution;
+
+  Origin of life and exobiology;
+
+  Non-adaptative versus adaptative evolution;
+
+ The "minor" phyla: their usefulness in evolutionary biology knowledge;
+    
+Convergent evolution;
+    
+Evolution of complex traits (Evo-Devo);
+
+more info: http://sites.univ-provence.fr/evol-cgr/  or http://aeeb.fr/?page_id=333
+or contact Marie-Helene.rome@univ-amu.fr 
+
+best regards
+Pierre Pontarotti
+
+PONTAROTTI Pierre <pierre.pontarotti@univ-amu.fr>
+

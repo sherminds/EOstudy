@@ -1,11 +1,35 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+Conference related to the Programming for Evolutionary Biology course
 
-<B>/brian/evoldir/Conferences/Belgrad.ProgrammingForEvolutionaryBiology.Sep7-12</B>
-<P>
-</BODY>
-</HTML>
+When: September 9th - 12th 2016
+Location: Belgrad, Serbia
+
+Registration now open
+
+Detailed information about the conference content and how to register:
+http://pebconference.info/
+
+The Programming for Evolutionary Biology (PEB) conference brings
+together scientists broadly interested in applying bioinformatic tools
+to answer evolutionary and ecological questions. It aims to serve as a
+platform for discussing common programming pitfalls encountered during
+research and features workshops to further develop participants'
+bioinformatic abilities. This year, we are fortunate to be joined by an
+outstanding list of Plenary Speakers.
+
+The conference is an offshoot of the Programming for Evolutionary
+Biology course held annually at the University of Leipzig. The course
+teaches the essential background skills required to perform
+computational analyses using next-generation sequencing (NGS) data with
+a focus on solving research questions related to genomics and
+evolution. Alumni from the Class of 2014 organized the inaugural PEB
+conference in May 2015 at CIBIO (Vila do Conde, Portugal) in order to
+discuss their research and overcoming technical challenges. The
+conference was a spectacular success and so this year the PEB community
+is pleased to announce that we will be accepting applications from the
+broader public! We welcome all speakers interested in the application
+of NGS methods in ecological and evolutionary studies. The second PEB
+conference will be held from September 7th to 12th, 2016 in Belgrad,
+Serbia.
+
+Katja Nowick <nowick@bioinf.uni-leipzig.de>
+

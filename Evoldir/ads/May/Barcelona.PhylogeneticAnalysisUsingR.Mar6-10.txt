@@ -1,11 +1,46 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+DearColleague,
 
-<B>/brian/evoldir/WorkshopsCourses/Barcelona.PhylogeneticAnalysisUsingR.Mar6-10</B>
-<P>
-</BODY>
-</HTML>
+Registrationis open for the fourth edition of the course PHYLOGENETIC ANALYSIS
+USINGR, March 6th-10th, 2017.
+
+INSTRUCTORS:Dr. Emmanuel Paradis (Institut de Recherche pour le D¨¦veloppement,
+France)and Dr. Klaus Schliep (University of Massachusetts, USA).
+
+Moreinformation:
+http://www.transmittingscience.org/courses/phylogeny/phylogenetic-analysis-using-r/
+
+Thiscourse is for biologists dealing with the analysis of multiple molecular
+sequencesat several levels: Populations, species, clades, communities. These
+biologistsaddress questions relative to the evolutionary relationships among
+thesesequences, as well as the evolutionary forces structuring biodiversity at
+differentscales. The objectives are: (i) to learn the theorical bases
+phylogeneticanalysis, (ii) to know how to choose a strategy of molecular data
+analysisat the inter©\ or intraspecific levels, (iii) to be able to initiate a
+phylogeneticanalysis starting from the files of molecular sequences until the
+interpretationof the results and the graphics. The software used for this
+coursewill be centered on the R language for statistics. This will include the
+useof specialized packages particularly ape, phangorn, and adegenet.
+
+Requeriments:Knowledge of multivariate statistics, phylogenetics and molecular
+evolution.User level of R.
+
+PLACE: Facilities of the Centre of Restauraci¨® i Interpretaci¨® Paleontologica,
+ElsHostalets de Pierola,  Barcelona (Spain).
+
+Organizedby: Transmitting Science, the Institut Catal¨¢ de Paleontologia M.
+Crusafontand the Centre de Restauraci¨® i Interpretaci¨® Paleontologica de Els
+Hostaletsde Pierola.
+
+Placesare limited and will be covered by strict registration order.
+
+Withbest regards
+
+Sole
+
+SoledadDe Esteban-Trivigno, PhD.
+ScientificDirector
+TransmittingScience
+www.transmittingscience.org
+
+soledad.esteban@transmittingscience.org
+

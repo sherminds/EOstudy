@@ -1,11 +1,42 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+Save the dates; and plan to attend the 14^th Annual Ecological
+Genomics Symposium on October 28-30, 2016, in Kansas City at the
+Marriott Country Club Plaza. The symposium will convene on Friday
+evening and conclude on Sunday, October 30^th at noon. Registration
+will be opening soon!
 
-<B>/brian/evoldir/Conferences/KansasCity.EcolGenomics.Oct28-30</B>
-<P>
-</BODY>
-</HTML>
+FEATUED SPEAKERS:
+
+-         Hans Hofmann, University of Texas at Austin
+
+-         Kirsten Hofmockel, Iowa State University
+
+-         Robin Hopkins, Harvard University
+
+-         Christian Landry, Universite Laval
+
+-         Blake Matthews, Swiss Federal Institute of Freshwater
+Science and Technology
+
+-         Suzanne McGaugh, University of Minnesota
+
+-         Geoffrey Morris, Kansas State University
+
+-         Kenneth Olsen, Washington University in St. Louis
+
+-         Amy Toth, Iowa State University
+
+-         Jamie Walters, University of Kansas
+
+POSTER SESSIONS: Poster sessions will be held on Friday evening and
+Saturday afternoon. Poster topics should be related the field of
+Ecological Genomics. A LIMITED NUMBER OF SUBMITTED POSTER ABSTRACTS
+WILL BE SELECTED FOR ORAL PRESENTATIONS.
+
+Please share this announcement with colleagues and students who are
+interested in the field of Ecological Genomics.
+
+Watch our website -  http://ecogen.k-state.edu/symposia/2016/2016.html
+- for more details.
+
+Jennifer Rhodes <jenniferrhodes@ksu.edu>
+

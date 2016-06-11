@@ -1,11 +1,22 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+Symposium on Non-coding RNAs: Function and Evolution
 
-<B>/brian/evoldir/Conferences/Villars_sur_Ollon_Switzerland.EvolNoncodingRNA.Sept12-14</B>
-<P>
-</BODY>
-</HTML>
+Villars-sur-Ollon, Switzerland
+
+September 12-14, 2016
+
+The aim of the 2016 Villars Symposium on "Non-coding RNAs: function and
+evolution" is to provide an interdisciplinary look at the roles and
+evolution of non-coding RNAs in both prokaryotes and eukaryotes. An
+outstanding list of speakers will be discussing the latest advancement
+in the evolution and roles of various non-coding RNAs, including
+microRNAs, piRNAs, long-non-coding RNAs and circular RNAs, in both
+prokaryotes, animal and plants.
+
+Registration deadline: June 15, 2016
+
+http://www.cuso.ch/activity/?p=2392&uid=2703
+
+Information: yves.poirier@unil.ch
+
+Yves Poirier <Yves.Poirier@unil.ch>
+

@@ -1,11 +1,30 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+21st Annual International Meeting on Microbial Genomes - September 18-22,
+2016 at Lake Arrowhead, CA
 
-<B>/brian/evoldir/Conferences/LakeArrowhead_California.MicrobialGenomes.Sep18-22</B>
-<P>
-</BODY>
-</HTML>
+This conference is part of a yearly meeting initiated in 1991 to bring
+together genome sequencers, bioinformatics specialists, biologists, and
+geneticists, to forge interactions that would result in meaningful
+functional genomics.  The goal of the meeting is to translate the influx of
+new genome sequencing information into useful biological studies.
+
+The Lake Arrowhead 2016 meeting will have a major focus on microbial
+communities, the human microbiome, pathogens, and genome evolution.  The
+field of genomics has reached the point where deriving the sequence of an
+organism=A2s entire genome is now seen as a beginning rather than an
+endpoint.  The sequence itself is a powerful tool to guide further studies
+to achieve an understanding of the organism=A2s biology.  This understandin=
+g
+requires either a detailed genetic analysis, or more rapid methods for
+developing functional genomics.
+
+Therefore, this years meeting will cover micro-organisms for which
+extensive analyses exist, and those for which new biological and technical
+strategies are being developed.  The focus on biodiversity, the human
+microbiome, pathogenic organisms, and bioenergetics adds special
+significance to this meeting.  This meeting is designed to have a mix of
+invited presentations and poster sessions.  The meeting will have
+approximately 150 participants.  Since attendance is limited, please
+register now at http://www.lamg.info/.
+
+Ashlee Earl <aearl@broadinstitute.org>
+

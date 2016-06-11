@@ -1,11 +1,36 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+Dear Evoldir community,
 
-<B>/brian/evoldir/Conferences/Paris.Mutualism.May30-31</B>
-<P>
-</BODY>
-</HTML>
+We would like to announce a fast-approaching symposium "EXPLOITATION AND
+CHEATING IN MUTUALISM: SYNTHESES, CHALLENGES, & NEW DIRECTIONS" that is
+open to the public in Paris, France, May 30 & 31st 2016. Our goal is to
+look ahead into the future of cheating: diverse perspectives are welcome!
+
+The website is:
+https://cheatinginparis.wordpress.com/
+
+and we have a form where you can sign-up to get updates before and
+(especially) after the meeting:
+http://goo.gl/forms/8oLPE02L9Y
+
+This small symposium will be held May 30-31, 2016 at the Oceanographic
+Institute (Maison des Océans et de la Biodiversité). This meeting is part
+of the 2016 program of Pépinière interdisciplinaire CNRS "Eco-Evo-Devo"
+hosted at Paris-Sciences-Lettres Research University. The meeting is also
+supported by a grant from the Partner University Fund (France-America
+Cultural Exchange) to École Normale Supérieure and the University of
+Arizona.
+
+Very best wishes,
+Judie Bronstein, Megan Frederickson, Maren Friesen
+
+Maren L. Friesen
+Assistant Professor, Department of Plant Biology
+Program in Ecology, Evolutionary Biology and Behavior
+Michigan State University
+612 Wilson Rd, East Lansing, MI USA 48824-6481
+phone: +1 (323) 454-3023 || office: +1 (517) 844-6947 || fax: +1 (517)
+353-1926
+http://friesen.plantbiology.msu.edu/
+
+maren.l.friesen@gmail.com
+

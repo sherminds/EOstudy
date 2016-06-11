@@ -1,11 +1,32 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+*Making Evolution Work: Synthesizing research and applied practice*
+*Evolution 2016*
+*Austin*
+*Saturday, June 18 8:30am-11:30am*
 
-<B>/brian/evoldir/Conferences/Austin.2016SSE_Education.Jun18</B>
-<P>
-</BODY>
-</HTML>
+Explore the intersection of academic and applied evolutionary research
+around karst watershed conservation.  The goal of this Symposium is
+to bring together researchers from academia, government, and private
+business to communicate about key challenges and ideas, with an eye
+toward addressing global issues more effectively.
+
+For more information visit: https://qubeshub.org/groups/sseedsym2016
+Apply here to participate: *http://tinyurl.com/jdb6cq6*
+
+There is no charge for this symposium, however participation is limited
+so registration is required.  Participants will be notified by June
+1. Please share this announcement with others who might be interested.
+Questions? Contact Louise Mead (lsmead@msu.edu) or Kristin Jenkins
+(kristin.jenkins@bioquest.org).
+
+-- 
+Kristin P. Jenkins, PhD
+Director
+
+BioQUEST Curriculum Consortium
+bioquest.org
+(608) 622.9394
+POBox 126
+Boyds, MD 20841-0126
+
+kristin.jenkins@bioquest.org
+

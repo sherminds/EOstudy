@@ -1,11 +1,37 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+PoreCamp is a hands-on training course based around Oxford Nanopore
+MinON sequencing technology. This is the second Porecamp to be run. t
+is organised and run by researchers for researchers and is the next
+installment in the PoreCamp series of courses. The last installment
+was run in December 2015<http://porecamp.github.io/index.html> at the
+University of Birmingham, UK.
 
-<B>/brian/evoldir/WorkshopsCourses/UExeter.PoreCamp.Aug15-19</B>
-<P>
-</BODY>
-</HTML>
+The aim is to provide practical, hands-on experience of the technology to
+enable any researcher with basic molecular biology expertise to perform
+their own sequencing experiments and learn from some of the leading
+experts in the field.
+
+Date: Monday 15th August =96 Friday 19th August 2016
+
+Location: Penryn Campus, Cornwall, University of Exeter, U.K.
+
+Learning objectives:
+
+  *   Preparing high quality MinON sequencing libraries
+  *   MinON operation
+  *   Custom scripts to maximise sequencer throughput
+  *   nitial QC and analysis of MinON output
+  *   Downstream analysis involving de-novo assembly and remapping
+  *   Production of a dataset for several fungal genomes as part of the
+  1000 fungal genomes project<http://1000.fungalgenomes.org/home/>.
+
+DNA will be provided for those who would like work on the 1000 fungal
+genomes project. Users will also be able to bring their own DNA samples
+but we cannot guarantee data will be generated from these =96 please do
+not rely on this event to generate data for your work. Further guidance
+will be provided on this to successful applicants.
+
+More information on course content can be found here:
+http://sequencing.exeter.ac.uk/porecamp/
+
+J.R.Paris@exeter.ac.uk
+

@@ -1,11 +1,61 @@
-<HTML>
-<HEAD><TITLE>OutBox: File Not Found
-</TITLE></HEAD>
-<BODY><H2>OutBox: File Not Found
-</H2>
-uxoutbox:40 The requested file was not found on this OutBox page:
+This is just a reminder that the Galaxy Community Community Conference
+early registration (gcc2016.iu.edu/registration/), and poster and demo
+(gcc2016.iu.edu/abstracts/) deadlines are MAY 20.
 
-<B>/brian/evoldir/Conferences/IndianaU.Galaxy.Jun25-29.DeadlineMay20</B>
-<P>
-</BODY>
-</HTML>
+A draft schedule of conference talks is also now available at
+gcc16.sched.org/type/Conference
+
+Please pass this news along to anyone who might be interested in
+participating.
+The conference announcement is below
+
+------
+
+2016 Galaxy Community Conference (GCC2016)
+    gcc2016.iu.edu
+    June 25 - 29, 2016
+    Indiana University
+    Bloomington, Indiana
+    United States
+
+The 2016 Galaxy Community Conference (GCC2016, gcc2016.iu.edu)
+features two days
+of presentations, discussions, poster sessions, lightning talks, computer
+demos, keynotes, and birds-of-a-feather meetups, all about data-intensive
+biology and the tools that support it. Keynote speaker Yoav Gilad, a
+professor of human genetics at the University of Chicago, will kick-start
+the main conference with a discussion on the analysis of large gene
+regulatory data sets. Pre-conference events include data and coding hackath=
+ons,
+and two days of training in five concurrent tracks covering 26 topics.
+
+GCC2016 will be held at Indiana University in Bloomington, Indiana, June 25=
+-29,
+2016.  Since it started seven years ago, GCC has been a
+well-attended gathering of biologists, genome researchers, bioinformatician=
+s,
+and others in data-intensive biomedical research around the world.
+
+Galaxy is an open, web-based platform for data-intensive biomedical researc=
+h
+and enables easy interactive analysis through the web on arbitrarily large
+data sets. The Galaxy framework is a major resource in achieving key
+research goals within the biological field. It provides next-generation
+sequencing (NGS) tools and workflows for short-read mapping, ChIP-seq,
+RNA-seq, metagenomics, variant analysis, visualization, and support for
+Galaxy in the cloud. There are hundreds of local installs, and over 80
+publicly accessible servers around the world.
+
+Abstract submission for posters and computer demonstrations closes May 20.
+
+Early registration also ends May 20. Registration starts at less than
+$45/day for post-docs and students. Registering early assures you a place
+at the conference and also a spot in the training workshops you want to
+attend. You can also book conference housing when you register.
+
+Thanks, and we hope to see you in Bloomington!
+
+The GCC2016 Exec
+
+Dave Clements <clements@galaxyproject.org>
+
