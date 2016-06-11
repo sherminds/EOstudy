@@ -1,0 +1,68 @@
+<head>
+	<title>
+		WorkshopsCourses
+	</title>
+</head>
+
+<body bgcolor="#42426f" text="#ffffff" 
+link="#ffff00" vlink="#93db70" alink="#cc3232" 
+>
+
+<font size="6"><center><B>WorkshopsCourses:</B></center></font>
+</center>
+<table cellpadding=0 cellspacing=0 width="100%" border=0>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+</center>
+<div align=left>
+<HR ALIGN=center WIDTH="80%" size=3 noshade>
+<font size="5"><pre><a href="/~brian/evoldir/WorkshopsCourses/CopenhagenU.NGSpopulationGenetics.Aug22-26">CopenhagenU.NGSpopulationGenetics.Aug22-26</a>                           1 KB        Jun 10 08:26
+<a href="/~brian/evoldir/WorkshopsCourses/PortoAlegre_Brazil.HierarchicalPopModeling.Oct9-15.2">PortoAlegre_Brazil.HierarchicalPopModeling.Oct9-15.2</a>                 3 KB        Jun  9 08:15
+<a href="/~brian/evoldir/WorkshopsCourses/SwissAlps.Social_Decisions.Jul19-22">SwissAlps.Social_Decisions.Jul19-22</a>                                  2 KB        Jun  8 08:50
+<a href="/~brian/evoldir/WorkshopsCourses/MathVillage_Turkey.QuantEvolBiol.Sep18-25">MathVillage_Turkey.QuantEvolBiol.Sep18-25</a>                            2 KB        Jun  7 08:26
+<a href="/~brian/evoldir/WorkshopsCourses/Minnesota.TeachingEvolComputation.Oct23-25">Minnesota.TeachingEvolComputation.Oct23-25</a>                           3 KB        Jun  7 08:26
+<a href="/~brian/evoldir/WorkshopsCourses/Amsterdam.EvoEvol.Sep20.CallAbstracts">Amsterdam.EvoEvol.Sep20.CallAbstracts</a>                                4 KB        Jun  7 08:26
+<a href="/~brian/evoldir/WorkshopsCourses/PortoAlegre_Brazil.HierarchicalPopModeling.Oct9-15">PortoAlegre_Brazil.HierarchicalPopModeling.Oct9-15</a>                   3 KB        Jun  6 09:49
+<a href="/~brian/evoldir/WorkshopsCourses/Lausanne.PopulationGenomicsInR.Aug22-26">Lausanne.PopulationGenomicsInR.Aug22-26</a>                              1 KB        Jun  1 08:28
+<a href="/~brian/evoldir/WorkshopsCourses/Barcelona.PhylogeneticAnalysisUsingR.Mar6-10">Barcelona.PhylogeneticAnalysisUsingR.Mar6-10</a>                         1 KB        May 29 09:08
+<a href="/~brian/evoldir/WorkshopsCourses/UExeter.PoreCamp.Aug15-19">UExeter.PoreCamp.Aug15-19</a>                                            1 KB        May 29 09:08
+<a href="/~brian/evoldir/WorkshopsCourses/Montana.ConservationGenetics.Sep5-10.2">Montana.ConservationGenetics.Sep5-10.2</a>                               2 KB        May 26 08:03
+<a href="/~brian/evoldir/WorkshopsCourses/Scotland.BioinformaticsUsingLINUX.Aug15-19">Scotland.BioinformaticsUsingLINUX.Aug15-19</a>                           7 KB        May 25 08:14
+<a href="/~brian/evoldir/WorkshopsCourses/MDIBL_Maine.EnvironmentalGenomics.Jul30-Aug6">MDIBL_Maine.EnvironmentalGenomics.Jul30-Aug6</a>                         2 KB        May 25 08:14
+<a href="/~brian/evoldir/WorkshopsCourses/UGothenburg.MetageneticBioinformaticPipelines.Nov7-11">UGothenburg.MetageneticBioinformaticPipelines.Nov7-11</a>               10 KB        May 25 08:14
+<a href="/~brian/evoldir/WorkshopsCourses/Montana.ConservationGenetics.Sep5-10">Montana.ConservationGenetics.Sep5-10</a>                                 2 KB        May 18 07:19
+<a href="/~brian/evoldir/WorkshopsCourses/Asilomar_California.ConservationAndGeneExpression.Sep19-23">Asilomar_California.ConservationAndGeneExpression.Sep19-23</a>           2 KB        May  6 08:17
+<a href="/~brian/evoldir/WorkshopsCourses/Lisbon_Portugal.Biodiversity_Lichens">Lisbon_Portugal.Biodiversity_Lichens</a>                                 4 KB        Apr 30 12:15
+<a href="/~brian/evoldir/WorkshopsCourses/Toronto.MappingGenomicFeaturesClinicalTraits.Jul18-Jul19">Toronto.MappingGenomicFeaturesClinicalTraits.Jul18-Jul19</a>             2 KB        Apr 28 09:56
+<a href="/~brian/evoldir/WorkshopsCourses/Faro_Portugal.StatisticalGenetics.Ext_Deadline">Faro_Portugal.StatisticalGenetics.Ext_Deadline</a>                       7 KB        Apr 27 09:12
+<a href="/~brian/evoldir/WorkshopsCourses/Edinburgh.EvolutionaryQuantGenetics.Oct31-Nov4">Edinburgh.EvolutionaryQuantGenetics.Oct31-Nov4</a>                       2 KB        Apr 23 19:10
+<a href="/~brian/evoldir/WorkshopsCourses/Scotland.GeneticDataAnalysis_Exploration.Aug16-20">Scotland.GeneticDataAnalysis_Exploration.Aug16-20</a>                    3 KB        Apr 23 19:10
+<a href="/~brian/evoldir/WorkshopsCourses/Norway.NonmodelOrganismHTS.May31-Jun10">Norway.NonmodelOrganismHTS.May31-Jun10</a>                               1 KB        Apr 23 19:10
+<a href="/~brian/evoldir/WorkshopsCourses/Portugal.NicheModelling.Jul18-22">Portugal.NicheModelling.Jul18-22</a>                                     3 KB        Apr 17 08:29
+<a href="/~brian/evoldir/WorkshopsCourses/Hafjel_Norway.Selection.Jun6-10.reminder">Hafjel_Norway.Selection.Jun6-10.reminder</a>                             1 KB        Apr 14 08:52
+<a href="/~brian/evoldir/WorkshopsCourses/Zagori_Greece.ConservationBiology.Jun27-Jul8">Zagori_Greece.ConservationBiology.Jun27-Jul8</a>                         1 KB        Apr 11 08:14
+<a href="/~brian/evoldir/WorkshopsCourses/Barcelona.GeneticBasisOfShape.Sep6-9">Barcelona.GeneticBasisOfShape.Sep6-9</a>                                 2 KB        Apr  7 08:30
+<a href="/~brian/evoldir/WorkshopsCourses/SimBioQUBES.FacultyMentoring">SimBioQUBES.FacultyMentoring</a>                                         1 KB        Apr  7 08:30
+<a href="/~brian/evoldir/WorkshopsCourses/Hinxton_UK.HumGenomeAnalysis.JUL20-26.DEADLINE_APR8">Hinxton_UK.HumGenomeAnalysis.JUL20-26.DEADLINE_APR8</a>                  1 KB        Apr  7 08:30
+<a href="/~brian/evoldir/WorkshopsCourses/Denver_CO.EvolutionInCognition.Jul21">Denver_CO.EvolutionInCognition.Jul21</a>                                 4 KB        Apr  7 08:30
+<a href="/~brian/evoldir/WorkshopsCourses/Vairao_Portugal.Speciation.May9-13">Vairao_Portugal.Speciation.May9-13</a>                                   1 KB        Apr  5 08:49
+<a href="/~brian/evoldir/WorkshopsCourses/Maynooth_Ireland.Phylogenomics.May29-Jun3">Maynooth_Ireland.Phylogenomics.May29-Jun3</a>                            8 KB        Apr  5 08:49
+<a href="/~brian/evoldir/WorkshopsCourses/UTennessee_Knoxville.NIMBioSTutorial.EvolQuantGenetics.Aug8-12">UTennessee_Knoxville.NIMBioSTutorial.EvolQuantGenetics.Aug8-12</a>       3 KB        Apr  2 08:50
+<a href="/~brian/evoldir/WorkshopsCourses/LakeBalaton_Hungary.ConservationGenetics.May30-Jun10.Deadline">LakeBalaton_Hungary.ConservationGenetics.May30-Jun10.Deadline</a>        6 KB        Mar 31 09:00
+<a href="/~brian/evoldir/WorkshopsCourses/Glasgow.DNAtaxonomy.Aug8-11">Glasgow.DNAtaxonomy.Aug8-11</a>                                          2 KB        Mar 30 08:51
+<a href="/~brian/evoldir/WorkshopsCourses/SanJuan_PR.PCM_Workshop_Reminder.Jun28-Jul1">SanJuan_PR.PCM_Workshop_Reminder.Jun28-Jul1</a>                          6 KB        Mar 29 08:59
+<a href="/~brian/evoldir/WorkshopsCourses/MBL_WoodsHole.MolecularEvolution.ApplDueApr4">MBL_WoodsHole.MolecularEvolution.ApplDueApr4</a>                       362 bytes     Mar 23 08:44
+<a href="/~brian/evoldir/WorkshopsCourses/CIBIO_Portugal.Morphology.">CIBIO_Portugal.Morphology.</a>                                           1 KB        Mar 22 08:25
+<a href="/~brian/evoldir/WorkshopsCourses/Toulouse.Evolution.May30-31.Registration">Toulouse.Evolution.May30-31.Registration</a>                             1 KB        Mar 18 08:36
+<a href="/~brian/evoldir/WorkshopsCourses/Vairao_Portugal.EvolutionFunctionalMorphology.Apr18-20">Vairao_Portugal.EvolutionFunctionalMorphology.Apr18-20</a>               1 KB        Mar 15 08:45
+<a href="/~brian/evoldir/WorkshopsCourses/Glasgow.Linux_workflows.Aug15-19">Glasgow.Linux_workflows.Aug15-19</a>                                     7 KB        Mar 15 08:45
+<a href="/~brian/evoldir/WorkshopsCourses/cE3c_Portugal.2.EvolBiol">cE3c_Portugal.2.EvolBiol</a>                                             4 KB        Mar 12 09:02
+</pre></font>
+</body>
+</html>
+
