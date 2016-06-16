@@ -2,6 +2,8 @@
 
 ## Keynote speakers
 
+Mary O’Connell (University of Leeds) 
+Jonas Warringer (University of Gothenburg).
 
 ## Invited speakers
 
@@ -14,5 +16,7 @@
 
 ## Organizing committee
 
+Danna Gifford 
+Chris Knight
 
 ## Scientific committee
