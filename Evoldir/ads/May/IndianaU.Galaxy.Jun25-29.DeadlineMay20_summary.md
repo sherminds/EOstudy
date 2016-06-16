@@ -1,7 +1,7 @@
 # Featured speakers
 
 ## Keynote speakers
-
+Yoav Gilad
 
 ## Invited speakers
 

@@ -5,6 +5,11 @@
 
 ## Invited speakers
 
+Pierre De Wit
+Mats Töpel
+Ricardo Pereyra
+Sarah Bourlat
+Katja Lehmann
 
 ## Instructors
 
@@ -14,5 +19,7 @@
 
 ## Organizing committee
 
+Pierre De Wit
+Sarah Bourlat
 
 ## Scientific committee

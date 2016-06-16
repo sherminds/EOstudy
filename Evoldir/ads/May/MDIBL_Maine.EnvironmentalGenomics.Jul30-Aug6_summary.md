@@ -13,6 +13,9 @@
 
 
 ## Organizing committee
+John Colbourne, Ph.D.
+Benjamin L. King, Ph.D.
+Joseph Shaw, Ph.D.
 
 
 ## Scientific committee

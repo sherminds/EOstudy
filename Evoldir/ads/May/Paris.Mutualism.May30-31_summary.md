@@ -4,7 +4,18 @@
 
 
 ## Invited speakers
-
+Judie Bronstein
+Megan Frederickson
+Maren Friesen
+Melanie Ghoul
+Christoph Hauert
+Martin Heil
+David Hembry
+Chris Johnson
+Toby Kiers
+Stephanie Porter
+Christina Riehl
+Joel Sachs
 
 ## Instructors
 
@@ -13,6 +24,8 @@
 
 
 ## Organizing committee
-
+Judie Bronstein
+Megan Frederickson
+Maren Friesen
 
 ## Scientific committee
