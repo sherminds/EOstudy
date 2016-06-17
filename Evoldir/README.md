@@ -35,4 +35,7 @@ Set include = FALSE if
  - no information on invited speakers/info at all (neither in ad nor website)
  - if Course: if run by private company like prstatistics (we want to focus on "academic" events)
 
+AND do put a comment in the Comments column (last one) to justify the decision. 
+
+
 
