@@ -57,7 +57,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Made font bigger, was 14px */
+  font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Made font bigger, was 14px */
   color:#101010; /* Changed the font color to sth darker, was #727272 */
   font-weight:400;
 }
@@ -88,7 +88,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#003D5B;/* was #39c8 */
   text-decoration:none;
 }
 

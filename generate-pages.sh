@@ -1,6 +1,20 @@
 #!/bin/bash
 
-todaydate=$(date -r 1282368345 +%Y-%m-%d)
+# Argument: month (3 letter version, e.g., Apr)
 
-curl "https://docs.google.com/spreadsheets/d/1i67UACuGm4gKLlunEzIHdxCBSZJP2bhZWB3lSPkEocg/export?gid=0&format=csv" > data.csv
-cp data.csv data${todaydate}.csv
+echo "${1}"
+
+# Get today's date
+#todaydate=$(date -r 1282368345 +%Y-%m-%d)
+
+# Download the Google Spreadsheet
+#curl "https://docs.google.com/spreadsheets/d/1i67UACuGm4gKLlunEzIHdxCBSZJP2bhZWB3lSPkEocg/export?gid=0&format=csv" > data.csv
+
+# Save it, and append today's date to the file name for future reference
+# (technically this is not need because we are using git...!)
+#cp data.csv data${todaydate}.csv
+
+# Run the R script that will generate the pages
+# (the series of '" are here because we need " for the R argument to be considered as text, 
+#  the args have to be within ', but $ is expanded within ")
+R CMD BATCH --no-save --no-restore '--args themonth="'"${1}"'"' fill-pages.R
