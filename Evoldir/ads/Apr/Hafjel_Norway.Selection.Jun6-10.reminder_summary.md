@@ -8,6 +8,8 @@
 
 ## Instructors
 
+Peer Berg, Section leader, NordGen Farm Animals
+Anne Kettunen, Senior Scientist, NordGen Farm Animals
 
 # Organisers
 

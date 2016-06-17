@@ -5,6 +5,7 @@
 
 ## Invited speakers
 
+Bruce Walsh
 
 ## Instructors
 
@@ -13,6 +14,10 @@
 
 
 ## Organizing committee
+
+John Hickey
+Josephine Pemberton
+Chris Haley
 
 
 ## Scientific committee

@@ -5,6 +5,7 @@
 
 ## Invited speakers
 
+Bruce Weir
 
 ## Instructors
 

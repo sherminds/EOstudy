@@ -5,6 +5,9 @@
 
 ## Invited speakers
 
+Olivier François
+Thibaut Jombart
+Ezechiel Nicolazzi
 
 ## Instructors
 
@@ -14,5 +17,7 @@
 
 ## Organizing committee
 
+Stéphane Joost
+Solange Duruz
 
 ## Scientific committee

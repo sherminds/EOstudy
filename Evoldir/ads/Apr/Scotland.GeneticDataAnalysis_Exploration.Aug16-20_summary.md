@@ -14,5 +14,7 @@
 
 ## Organizing committee
 
+Oliver Hooker
+
 
 ## Scientific committee
