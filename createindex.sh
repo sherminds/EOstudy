@@ -13,7 +13,7 @@ do
   # For each ad, print a line with the link
   cat list.txt | while read line
   do 
-    echo '<a href="~/'"${month}"'/'"${line}"'">'"${month}"'/'"${line}"'</a><br>'
+    echo '<a href="'"${month}"'/'"${line}"'">'"${month}"'/'"${line}"'</a><br>'
   done
   echo '</p>'
 done > tmplist
