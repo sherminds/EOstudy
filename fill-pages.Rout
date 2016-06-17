@@ -46,10 +46,11 @@ Type 'q()' to quit R.
 > # Select also only the lines for which we want to send an email (Include column)
 > subdata <- datatab[monthlines & datatab$Include, ]
 > dim(subdata)
-[1] 20 33
+[1]  0 33
 > 
 > # Create directory with month name
 > system(paste("mkdir", themonth))
+usage: mkdir [-pv] [-m mode] directory ...
 > 
 > # Generate a personalized webpage for a given line of the table
 > generatepage <- function(i){
@@ -63,76 +64,15 @@ Type 'q()' to quit R.
 +   PC <- NBW/NBS * 100
 + 
 +   # Edit index.html and save it under the ad's name
-+   system(paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", EVENTTYPE, "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXPC/", PC, "/g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < index.html > ", themonth, "/", ADNAME, ".html", sep=""))
++   system(paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", EVENTTYPE, "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXPC/", PC, "/g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < pagetemplate.html > ", themonth, "/", ADNAME, ".html", sep=""))
 + }
 > 
 > # Generate the pages!
 > lapply(seq_along(subdata$Ad_ID), generatepage)
-sed: 1: "s/XXEVENTTYPE/Course/Tr ...": bad flag in substitute command: 'T'
-sed: 1: "s/XXEVENTTYPE/Course/Wo ...": bad flag in substitute command: 'W'
-[[1]]
-[1] 0
-
-[[2]]
-[1] 0
-
-[[3]]
-[1] 0
-
-[[4]]
-[1] 0
-
-[[5]]
-[1] 0
-
-[[6]]
-[1] 0
-
-[[7]]
-[1] 0
-
-[[8]]
-[1] 0
-
-[[9]]
-[1] 0
-
-[[10]]
-[1] 0
-
-[[11]]
-[1] 0
-
-[[12]]
-[1] 0
-
-[[13]]
-[1] 0
-
-[[14]]
-[1] 0
-
-[[15]]
-[1] 0
-
-[[16]]
-[1] 0
-
-[[17]]
-[1] 1
-
-[[18]]
-[1] 0
-
-[[19]]
-[1] 0
-
-[[20]]
-[1] 1
-
+list()
 > 
 > 
 > 
 > proc.time()
    user  system elapsed 
-  0.373   0.115   0.511 
+  0.340   0.048   0.392 

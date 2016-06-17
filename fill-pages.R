@@ -43,7 +43,7 @@ generatepage <- function(i){
   PC <- NBW/NBS * 100
 
   # Edit index.html and save it under the ad's name
-  system(paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", EVENTTYPE, "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXPC/", PC, "/g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < index.html > ", themonth, "/", ADNAME, ".html", sep=""))
+  system(paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", EVENTTYPE, "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXPC/", PC, "/g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < pagetemplate.html > ", themonth, "/", ADNAME, ".html", sep=""))
 }
 
 # Generate the pages!
