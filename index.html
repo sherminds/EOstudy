@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>EOstudy by flodebarre</title>
+    <title>EOstudy - answers</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/styles_flo.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -17,7 +17,7 @@
       <header>
         <h1>EOstudy</h1>
         <p></p>
-
+<!--
         <p class="view"><a href="https://github.com/flodebarre/EOstudy">View the Project on GitHub <small>flodebarre/EOstudy</small></a></p>
 
 
@@ -26,11 +26,57 @@
           <li><a href="https://github.com/flodebarre/EOstudy/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/flodebarre/EOstudy">View On <strong>GitHub</strong></a></li>
         </ul>
+    -->
       </header>
       <section>
         <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
+<h2>Form with Google behind</h2>
+
+<form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <input type="submit" value="Submit">
+</form>
+
+<h3>Google Forms test</h3>
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/18E5bODeJoawsqdZXi3MXILE3RhWwXhZdP9YqPV6EHu8/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+
+  Name: PrintAdName<br>
+  <input type="hidden" name="entry.40116736" id="entry.40116736" placeholder="blabla2", value="blabla2"><br>
+  Q1:<br>
+  <input type="radio" name="entry.513359447" id="entry.513359447" value="Yes"> Yes<br>
+  <input type="radio" name="entry.513359447" id="entry.513359447" value="No"> No<br>
+        
+<!--
+ <input type="text" name="entry.513359447" id="entry.513359447"><br>
+ -->
+Q2:<br>
+<input type="radio" name="entry.211827255" id="entry.211827255" value="Yes"> Yes<br>
+  <input type="radio" name="entry.211827255" id="entry.211827255" value="Maybe"> Maybe<br>
+    <input type="radio" name="entry.211827255" id="entry.211827255" value="No"> No<br>
+
+Please click on submit when you are done.
+<input type="submit" value="Submit">
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+  $('#gform').on('submit', function(e) {
+                 $('#gform *').fadeOut(2000);
+                 $('#gform').prepend('Your submission has been processed...');
+                 });
+  </script>
+
+<!--
+ https://docs.google.com/forms/d/18E5bODeJoawsqdZXi3MXILE3RhWwXhZdP9YqPV6EHu8/viewform?entry.40116736=Bla&entry.:513359447=Yes&entry.211827255=Yes
+-->
 <h2>Testing forms</h2>
 What do you think about this?
 <form action="https://formspree.io/your@email.com"
