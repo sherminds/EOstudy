@@ -52,11 +52,11 @@ package ‘xtable’ was built under R version 3.2.3
 > # Select also only the lines for which we want to send an email (Include column)
 > subdata <- datatab[monthlines & datatab$Include, ]
 > dim(subdata)
-[1]  0 33
+[1]  4 33
 > 
 > # Create directory with month name
 > system(paste("mkdir", themonth))
-usage: mkdir [-pv] [-m mode] directory ...
+mkdir: Apr: File exists
 > 
 > generatepage <- function(i){
 +   # Generate a personalized webpage for a given line of the table
@@ -94,10 +94,37 @@ usage: mkdir [-pv] [-m mode] directory ...
 > 
 > # Generate the pages!
 > lapply(seq_along(subdata$Ad_ID), generatepage)
-list()
+<table border=1>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   4 </td> <td>   3 </td> <td>   3 </td> <td>   1 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   3 </td> <td>   1 </td> <td>   3 </td> <td>   2 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   2 </td> <td>   1 </td> <td>  10 </td> <td>  10 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Instructors </th> <th> #Instructor_Women </th> <th> #ScientificCommittee </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td>  18 </td> <td>   3 </td> <td>   4 </td> <td>   4 </td> <td>   2 </td> <td>   0 </td> </tr>
+   </table>
+[[1]]
+[1] 0
+
+[[2]]
+[1] 0
+
+[[3]]
+[1] 0
+
+[[4]]
+[1] 0
+
 > 
 > 
 > 
 > proc.time()
    user  system elapsed 
-  0.310   0.047   0.362 
+  0.430   0.073   0.568 
