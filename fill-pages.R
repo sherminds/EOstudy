@@ -19,7 +19,7 @@ if(length(args) == 0){
 require("xtable", quietly = TRUE)
 
 # Load the data
-datatab <- read.csv("data.csv", stringsAsFactors = FALSE)
+datatab <- read.csv("datadummy.csv", stringsAsFactors = FALSE)
 
 # Get the month information from the Ad_date column
 getmonth <- function(str){
@@ -34,6 +34,25 @@ dim(subdata)
 
 # Create directory with month name
 system(paste("mkdir", themonth))
+
+# Prepare the other table for corrected data
+#   entry.2009600132 =1
+#   entry.1524920972 =2
+#   entry.291315263 =3
+#   entry.1458248052 =4
+#   entry.379542407 =5
+#   entry.846549573 =6
+#   entry.691651333 =7
+#   entry.1662056401 =8
+#  <input type="hidden" name="entry.40116736" id="entry.40116736" placeholder=XXADNAME, value=XXADNAME><br>
+entries <- c("entry.2009600132", "entry.1524920972", "entry.291315263", "entry.1458248052", "entry.379542407", "entry.846549573", "entry.691651333", "entry.1662056401")
+
+inputxt <- function(i){
+  paste('<input type="text" name="', entries[i], '" id="', entries[i], '" value=NA>', sep="")
+}
+newtab <- as.data.frame(matrix(unlist(lapply(seq_along(entries), inputxt)), nrow = 1))
+names(newtab) <- c("Invited_nb", "Invited_W", "Instructor_nb", "Instructor_W", "Org_nb", "Org_W", "SciCom_nb", "SciCom_W")
+
 
 generatepage <- function(i){
   # Generate a personalized webpage for a given line of the table
@@ -63,8 +82,12 @@ generatepage <- function(i){
   htmltab <- print(xtable(thetab, align = rep("l", length(thetab)+1)), include.rownames = FALSE, type = "html", comment = FALSE)
   htmltab2 <- gsub("\n", " ", htmltab)
 
+  # Prepare the other table for corrected data
+  othertab <- newtab[colinclude]
+  htmlother <- gsub("\n", " ", print(xtable(othertab, align = rep("l", length(thetab)+1)), include.rownames = FALSE, type = "html", comment = FALSE))    
+  
   # Edit index.html and save it under the ad's name
-  cmd <- paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", tolower(EVENTTYPE), "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXDATE/", ADDATE, "/g' -e 's/XXPC/", PC, "/g'  -e 's,XXTABLE,", htmltab2, ",g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < pagetemplate.html > ", themonth, "/", ADNAME, ".html", sep="")
+  cmd <- paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", tolower(EVENTTYPE), "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXDATE/", ADDATE, "/g' -e 's/XXPC/", PC, "/g'  -e 's,XXTABLE,", htmltab2, ",g'  -e 's,XXOTHERTAB,", htmlother, ",g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < pagetemplate.html > ", themonth, "/", ADNAME, ".html", sep="")
   system(cmd)
   }
 

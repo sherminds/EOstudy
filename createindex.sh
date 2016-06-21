@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This script creates an index of all the evoldir-related pages on the website
+# ! You need to update the list of months in the for loop to include new ones.
+# ! Do not forget to add the new pagedir.html to github!
+
 rm tmplist
 for month in Apr May
 do
