@@ -79,7 +79,7 @@ generatepage <- function(i){
 
   
   inputxt <- function(j){
-    paste('<input type="text" maxlength="4" name="', entries[j], '" id="', entries[j], '" value=', subcol[j],' placeholder=', subcol[j], '>', sep="")
+    paste('<input type="text" style="width: 10px;" name="', entries[j], '" id="', entries[j], '" value=', subcol[j],' placeholder=', subcol[j], '>', sep="")
   }
   newtab <- as.data.frame(matrix(unlist(lapply(seq_along(entries), inputxt)), nrow = 1))
 
