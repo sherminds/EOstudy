@@ -40,10 +40,130 @@ Warning message:
 package ‘xtable’ was built under R version 3.2.3 
 > 
 > # Load the data
-> datatab <- read.csv("datadummy.csv", stringsAsFactors = FALSE)
-Error in file(file, "rt") : cannot open the connection
-Calls: read.csv -> read.table -> file
-In addition: Warning message:
-In file(file, "rt") :
-  cannot open file 'datadummy.csv': No such file or directory
-Execution halted
+> datatab <- read.csv("dummydata.csv", stringsAsFactors = FALSE)
+> 
+> # Get the month information from the Ad_date column
+> getmonth <- function(str){
++   head(strsplit(str, split=" ")[[1]],1)
++ }
+> months <- vapply(datatab$Ad_date, getmonth, "a", USE.NAMES = FALSE)
+> monthlines <- (months==themonth)
+> 
+> # Select also only the lines for which we want to send an email (Include column)
+> subdata <- datatab[monthlines & datatab$Include, ]
+> dim(subdata)
+[1]  4 33
+> 
+> # Create directory with month name
+> system(paste("mkdir", themonth))
+mkdir: Apr: File exists
+> 
+> # Prepare the other table for corrected data
+> #   entry.2009600132 =1
+> #   entry.1524920972 =2
+> #   entry.291315263 =3
+> #   entry.1458248052 =4
+> #   entry.379542407 =5
+> #   entry.846549573 =6
+> #   entry.691651333 =7
+> #   entry.1662056401 =8
+> #  <input type="hidden" name="entry.40116736" id="entry.40116736" placeholder=XXADNAME, value=XXADNAME><br>
+> entries <- c("entry.2009600132", "entry.1524920972", "entry.291315263", "entry.1458248052", "entry.379542407", "entry.846549573", "entry.691651333", "entry.1662056401")
+> 
+> inputxt <- function(i){
++   paste('<input type="text" name="', entries[i], '" id="', entries[i], '" value=NA>', sep="")
++ }
+> newtab <- as.data.frame(matrix(unlist(lapply(seq_along(entries), inputxt)), nrow = 1))
+> names(newtab) <- c("Invited_nb", "Invited_W", "Instructor_nb", "Instructor_W", "Org_nb", "Org_W", "SciCom_nb", "SciCom_W")
+> 
+> 
+> generatepage <- function(i){
++   # Generate a personalized webpage for a given line of the table
++   # Column names in the table
++   ## Invited_nb	Invited_W	Instructor_nb	Instructor_W	Org_nb	Org_W	SciCom_nb	SciCom_W
++   v <- subdata[i,]
++   ADNAME <- v$Ad_ID
++   ADDATE <- v$Ad_date
++   EVENTTYPE <- v$Type
++   EVOLDIR <- paste("http://life.mcmaster.ca/~brian/evoldir/", v$Ad_Type, "/", ADNAME, sep = "")
++   WEBSITE <- v$Website
++   NBW <- v$Invited_W
++   NBS <- v$Invited_nb
++   PC <- round(NBW/NBS* 100, digits=2)
++   CONTACTNAME <- v$Org_name1
++   QADDRESS <- paste("https://flodebarre.github.io/EOstudy/", themonth, "/", ADNAME, ".html", sep = "")
++   EVENTSHORTNAME <- v$Short_name
++ 
++   # Prepare the table that will be printed
++   subcol <- v[, c("Invited_nb", "Invited_W", "Instructor_nb", "Instructor_W", "Org_nb", "Org_W", "SciCom_nb", "SciCom_W")]
++   # More explicit names
++   namsub <- c("#Invited", "#Invited_Women", "#Instructors", "#Instructor_Women", "#Organizers", "#Organizers_Women", "#ScientificCommittee", "#ScientificCommittee_Women")
++   # Only include the ones that are not NA:
++   colinclude <- c(!is.na(subcol))
++   thetab <- subcol[colinclude]
++   names(thetab) <- namsub[colinclude]
++   htmltab <- print(xtable(thetab, align = rep("l", length(thetab)+1)), include.rownames = FALSE, type = "html", comment = FALSE)
++   htmltab2 <- gsub("\n", " ", htmltab)
++ 
++   # Prepare the other table for corrected data
++   othertab <- newtab[colinclude]
++   htmlother <- gsub("\n", " ", print(xtable(othertab, align = rep("l", length(thetab)+1)), include.rownames = FALSE, type = "html", comment = FALSE))    
++   
++   # Edit index.html and save it under the ad's name
++   cmd <- paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", tolower(EVENTTYPE), "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXDATE/", ADDATE, "/g' -e 's/XXPC/", PC, "/g'  -e 's,XXTABLE,", htmltab2, ",g'  -e 's,XXOTHERTAB,", htmlother, ",g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < pagetemplate.html > ", themonth, "/", ADNAME, ".html", sep="")
++   system(cmd)
++   }
+> 
+> 
+> # Generate the pages!
+> lapply(seq_along(subdata$Ad_ID), generatepage)
+<table border=1>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   4 </td> <td>   3 </td> <td>   3 </td> <td>   1 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> Invited_nb </th> <th> Invited_W </th> <th> Org_nb </th> <th> Org_W </th>  </tr>
+  <tr> <td> &lt;input type="text" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" name="entry.379542407" id="entry.379542407" value=NA&gt; </td> <td> &lt;input type="text" name="entry.846549573" id="entry.846549573" value=NA&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   3 </td> <td>   1 </td> <td>   3 </td> <td>   2 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> Invited_nb </th> <th> Invited_W </th> <th> Org_nb </th> <th> Org_W </th>  </tr>
+  <tr> <td> &lt;input type="text" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" name="entry.379542407" id="entry.379542407" value=NA&gt; </td> <td> &lt;input type="text" name="entry.846549573" id="entry.846549573" value=NA&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   2 </td> <td>   1 </td> <td>  10 </td> <td>  10 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> Invited_nb </th> <th> Invited_W </th> <th> Org_nb </th> <th> Org_W </th>  </tr>
+  <tr> <td> &lt;input type="text" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" name="entry.379542407" id="entry.379542407" value=NA&gt; </td> <td> &lt;input type="text" name="entry.846549573" id="entry.846549573" value=NA&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Instructors </th> <th> #Instructor_Women </th> <th> #ScientificCommittee </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td>  18 </td> <td>   3 </td> <td>   4 </td> <td>   4 </td> <td>   2 </td> <td>   0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> Invited_nb </th> <th> Invited_W </th> <th> Instructor_nb </th> <th> Instructor_W </th> <th> SciCom_nb </th> <th> SciCom_W </th>  </tr>
+  <tr> <td> &lt;input type="text" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" name="entry.291315263" id="entry.291315263" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1458248052" id="entry.1458248052" value=NA&gt; </td> <td> &lt;input type="text" name="entry.691651333" id="entry.691651333" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1662056401" id="entry.1662056401" value=NA&gt; </td> </tr>
+   </table>
+[[1]]
+[1] 0
+
+[[2]]
+[1] 0
+
+[[3]]
+[1] 0
+
+[[4]]
+[1] 0
+
+> 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  0.374   0.065   0.459 
