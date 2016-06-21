@@ -172,4 +172,4 @@ mkdir: Apr: File exists
 > 
 > proc.time()
    user  system elapsed 
-  0.470   0.075   0.634 
+  0.361   0.060   0.426 
