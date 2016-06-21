@@ -71,7 +71,7 @@ mkdir: Apr: File exists
 > entries <- c("entry.2009600132", "entry.1524920972", "entry.291315263", "entry.1458248052", "entry.379542407", "entry.846549573", "entry.691651333", "entry.1662056401")
 > 
 > inputxt <- function(i){
-+   paste('<input type="text" name="', entries[i], '" id="', entries[i], '" value=NA>', sep="")
++   paste('<input type="text" size="20" name="', entries[i], '" id="', entries[i], '" value=NA>', sep="")
 + }
 > newtab <- as.data.frame(matrix(unlist(lapply(seq_along(entries), inputxt)), nrow = 1))
 > names(newtab) <- c("Invited_nb", "Invited_W", "Instructor_nb", "Instructor_W", "Org_nb", "Org_W", "SciCom_nb", "SciCom_W")
@@ -107,6 +107,7 @@ mkdir: Apr: File exists
 + 
 +   # Prepare the other table for corrected data
 +   othertab <- newtab[colinclude]
++   names(othertab) <- names(thetab)
 +   otmp <- print(xtable(othertab, align = rep("l", length(thetab)+1)), include.rownames = FALSE, type = "html", comment = FALSE)
 +   otmp <- gsub("\n", " ", otmp)
 +   otmp <- gsub("&lt;", "<", otmp)
@@ -126,32 +127,32 @@ mkdir: Apr: File exists
   <tr> <td>   4 </td> <td>   3 </td> <td>   3 </td> <td>   1 </td> </tr>
    </table>
 <table border=1>
-<tr> <th> Invited_nb </th> <th> Invited_W </th> <th> Org_nb </th> <th> Org_W </th>  </tr>
-  <tr> <td> &lt;input type="text" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" name="entry.379542407" id="entry.379542407" value=NA&gt; </td> <td> &lt;input type="text" name="entry.846549573" id="entry.846549573" value=NA&gt; </td> </tr>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="20" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.379542407" id="entry.379542407" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.846549573" id="entry.846549573" value=NA&gt; </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
   <tr> <td>   3 </td> <td>   1 </td> <td>   3 </td> <td>   2 </td> </tr>
    </table>
 <table border=1>
-<tr> <th> Invited_nb </th> <th> Invited_W </th> <th> Org_nb </th> <th> Org_W </th>  </tr>
-  <tr> <td> &lt;input type="text" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" name="entry.379542407" id="entry.379542407" value=NA&gt; </td> <td> &lt;input type="text" name="entry.846549573" id="entry.846549573" value=NA&gt; </td> </tr>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="20" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.379542407" id="entry.379542407" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.846549573" id="entry.846549573" value=NA&gt; </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
   <tr> <td>   2 </td> <td>   1 </td> <td>  10 </td> <td>  10 </td> </tr>
    </table>
 <table border=1>
-<tr> <th> Invited_nb </th> <th> Invited_W </th> <th> Org_nb </th> <th> Org_W </th>  </tr>
-  <tr> <td> &lt;input type="text" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" name="entry.379542407" id="entry.379542407" value=NA&gt; </td> <td> &lt;input type="text" name="entry.846549573" id="entry.846549573" value=NA&gt; </td> </tr>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="20" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.379542407" id="entry.379542407" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.846549573" id="entry.846549573" value=NA&gt; </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Instructors </th> <th> #Instructor_Women </th> <th> #ScientificCommittee </th> <th> #ScientificCommittee_Women </th>  </tr>
   <tr> <td>  18 </td> <td>   3 </td> <td>   4 </td> <td>   4 </td> <td>   2 </td> <td>   0 </td> </tr>
    </table>
 <table border=1>
-<tr> <th> Invited_nb </th> <th> Invited_W </th> <th> Instructor_nb </th> <th> Instructor_W </th> <th> SciCom_nb </th> <th> SciCom_W </th>  </tr>
-  <tr> <td> &lt;input type="text" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" name="entry.291315263" id="entry.291315263" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1458248052" id="entry.1458248052" value=NA&gt; </td> <td> &lt;input type="text" name="entry.691651333" id="entry.691651333" value=NA&gt; </td> <td> &lt;input type="text" name="entry.1662056401" id="entry.1662056401" value=NA&gt; </td> </tr>
+<tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Instructors </th> <th> #Instructor_Women </th> <th> #ScientificCommittee </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="20" name="entry.2009600132" id="entry.2009600132" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.1524920972" id="entry.1524920972" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.291315263" id="entry.291315263" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.1458248052" id="entry.1458248052" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.691651333" id="entry.691651333" value=NA&gt; </td> <td> &lt;input type="text" size="20" name="entry.1662056401" id="entry.1662056401" value=NA&gt; </td> </tr>
    </table>
 [[1]]
 [1] 0
@@ -170,4 +171,4 @@ mkdir: Apr: File exists
 > 
 > proc.time()
    user  system elapsed 
-  0.427   0.068   0.516 
+  0.427   0.067   0.525 
