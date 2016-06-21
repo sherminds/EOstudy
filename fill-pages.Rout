@@ -40,7 +40,7 @@ Warning message:
 package ‘xtable’ was built under R version 3.2.3 
 > 
 > # Load the data
-> datatab <- read.csv("data.csv", stringsAsFactors = FALSE)
+> datatab <- read.csv("dummydata.csv", stringsAsFactors = FALSE)
 > 
 > # Get the month information from the Ad_date column
 > getmonth <- function(str){
@@ -100,4 +100,4 @@ list()
 > 
 > proc.time()
    user  system elapsed 
-  0.325   0.062   0.415 
+  0.310   0.047   0.362 
