@@ -19,7 +19,7 @@ if(length(args) == 0){
 require("xtable", quietly = TRUE)
 
 # Load the data
-datatab <- read.csv("data.csv", stringsAsFactors = FALSE)
+datatab <- read.csv("dummydata.csv", stringsAsFactors = FALSE)
 
 # Get the month information from the Ad_date column
 getmonth <- function(str){
@@ -51,7 +51,7 @@ generatepage <- function(i){
   CONTACTNAME <- v$Org_name1
   QADDRESS <- paste("https://flodebarre.github.io/EOstudy/", themonth, "/", ADNAME, ".html", sep = "")
   EVENTSHORTNAME <- v$Short_name
-
+  
   # Prepare the table that will be printed
   subcol <- v[, c("Invited_nb", "Invited_W", "Instructor_nb", "Instructor_W", "Org_nb", "Org_W", "SciCom_nb", "SciCom_W")]
   # More explicit names
@@ -62,11 +62,15 @@ generatepage <- function(i){
   names(thetab) <- namsub[colinclude]
   htmltab <- print(xtable(thetab, align = rep("l", length(thetab)+1)), include.rownames = FALSE, type = "html", comment = FALSE)
   htmltab2 <- gsub("\n", " ", htmltab)
-
+  
   # Edit index.html and save it under the ad's name
   cmd <- paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", tolower(EVENTTYPE), "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXDATE/", ADDATE, "/g' -e 's/XXPC/", PC, "/g'  -e 's,XXTABLE,", htmltab2, ",g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < pagetemplate.html > ", themonth, "/", ADNAME, ".html", sep="")
   system(cmd)
-  }
+  #-------------------------------------------
+  cmdemail <- paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXNAME/", CONTACTNAME, "/g' -e 's/XXEVENTTYPE/", tolower(EVENTTYPE), "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's,XXADDRESS,", QADDRESS, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXDATE/", ADDATE, "/g' -e 's/XXPC/", PC, "/g'  -e 's,XXTABLE,", htmltab2, ",g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < emailtemplate.txt > ", themonth, "/", ADNAME, "_email.txt", sep="")
+  
+  #  printf "From: EO study <eostudy.2017@gmail.com>\nTo: recipient@domain.com\nSubject: Subject\n\nBody\n" | /usr/sbin/sendmail -F "Sender Name" -f "sender@domain.com" "flo.debarre@gmail.com"
+}
 
 
 # Generate the pages!

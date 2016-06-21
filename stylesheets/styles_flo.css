@@ -134,14 +134,17 @@ pre {
 }
 
 table {
-  width:100%;
+/*  width:100%;*/
   border-collapse:collapse;
+  font-size:13px;
 }
 
 th, td {
-  text-align:left;
+  text-align:center;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border:1px solid #DDDDDD;
+  background-color: #eeeeee;
+/*  border-bottom:1px solid #e5e5e5;*/
 }
 
 dt {
@@ -150,7 +153,10 @@ dt {
 }
 
 th {
-  color:#444;
+  /*color:#444;*/
+  background-color: #BBBBBB;
+  font-style: normal;
+  font-weight:400;
 }
 
 img {
