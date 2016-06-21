@@ -69,7 +69,7 @@ generatepage <- function(i){
   # Prepare the table that will be printed
   subcol <- v[, c("Invited_nb", "Invited_W", "Instructor_nb", "Instructor_W", "Org_nb", "Org_W", "SciCom_nb", "SciCom_W")]
   # More explicit names
-  namsub <- c("#Invited", "#Invited_Women", "#Instructors", "#Instructor_Women", "#Organizers", "#Organizers_Women", "#ScientificCommittee", "#ScientificCommittee_Women")
+  namsub <- c("#Invited_Total", "#Invited_Women", "#Instructors_Total", "#Instructor_Women", "#Organizers_Total", "#Organizers_Women", "#ScientificCommittee_Total", "#ScientificCommittee_Women")
   # Only include the ones that are not NA:
   colinclude <- c(!is.na(subcol))
   thetab <- subcol[colinclude]
