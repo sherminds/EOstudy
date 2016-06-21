@@ -101,7 +101,7 @@ mkdir: Apr: File exists
 +   htmltab2 <- gsub("\n", " ", htmltab)
 + 
 +   inputxt <- function(j){
-+     paste('<input type="text" size="20" name="', entries[j], '" id="', entries[j], '" value=', subcol[j], '>', sep="")
++     paste('<input type="text" size="5" name="', entries[j], '" id="', entries[j], '" value=', subcol[j], '>', sep="")
 +   }
 +   newtab <- as.data.frame(matrix(unlist(lapply(seq_along(entries), inputxt)), nrow = 1))
 + 
@@ -128,7 +128,7 @@ mkdir: Apr: File exists
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="20" name="entry.2009600132" id="entry.2009600132" value=4&gt; </td> <td> &lt;input type="text" size="20" name="entry.1524920972" id="entry.1524920972" value=3&gt; </td> <td> &lt;input type="text" size="20" name="entry.379542407" id="entry.379542407" value=3&gt; </td> <td> &lt;input type="text" size="20" name="entry.846549573" id="entry.846549573" value=1&gt; </td> </tr>
+  <tr> <td> &lt;input type="text" size="5" name="entry.2009600132" id="entry.2009600132" value=4&gt; </td> <td> &lt;input type="text" size="5" name="entry.1524920972" id="entry.1524920972" value=3&gt; </td> <td> &lt;input type="text" size="5" name="entry.379542407" id="entry.379542407" value=3&gt; </td> <td> &lt;input type="text" size="5" name="entry.846549573" id="entry.846549573" value=1&gt; </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
@@ -136,7 +136,7 @@ mkdir: Apr: File exists
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="20" name="entry.2009600132" id="entry.2009600132" value=3&gt; </td> <td> &lt;input type="text" size="20" name="entry.1524920972" id="entry.1524920972" value=1&gt; </td> <td> &lt;input type="text" size="20" name="entry.379542407" id="entry.379542407" value=3&gt; </td> <td> &lt;input type="text" size="20" name="entry.846549573" id="entry.846549573" value=2&gt; </td> </tr>
+  <tr> <td> &lt;input type="text" size="5" name="entry.2009600132" id="entry.2009600132" value=3&gt; </td> <td> &lt;input type="text" size="5" name="entry.1524920972" id="entry.1524920972" value=1&gt; </td> <td> &lt;input type="text" size="5" name="entry.379542407" id="entry.379542407" value=3&gt; </td> <td> &lt;input type="text" size="5" name="entry.846549573" id="entry.846549573" value=2&gt; </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
@@ -144,7 +144,7 @@ mkdir: Apr: File exists
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Organizers </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="20" name="entry.2009600132" id="entry.2009600132" value=2&gt; </td> <td> &lt;input type="text" size="20" name="entry.1524920972" id="entry.1524920972" value=1&gt; </td> <td> &lt;input type="text" size="20" name="entry.379542407" id="entry.379542407" value=10&gt; </td> <td> &lt;input type="text" size="20" name="entry.846549573" id="entry.846549573" value=10&gt; </td> </tr>
+  <tr> <td> &lt;input type="text" size="5" name="entry.2009600132" id="entry.2009600132" value=2&gt; </td> <td> &lt;input type="text" size="5" name="entry.1524920972" id="entry.1524920972" value=1&gt; </td> <td> &lt;input type="text" size="5" name="entry.379542407" id="entry.379542407" value=10&gt; </td> <td> &lt;input type="text" size="5" name="entry.846549573" id="entry.846549573" value=10&gt; </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Instructors </th> <th> #Instructor_Women </th> <th> #ScientificCommittee </th> <th> #ScientificCommittee_Women </th>  </tr>
@@ -152,7 +152,7 @@ mkdir: Apr: File exists
    </table>
 <table border=1>
 <tr> <th> #Invited </th> <th> #Invited_Women </th> <th> #Instructors </th> <th> #Instructor_Women </th> <th> #ScientificCommittee </th> <th> #ScientificCommittee_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="20" name="entry.2009600132" id="entry.2009600132" value=18&gt; </td> <td> &lt;input type="text" size="20" name="entry.1524920972" id="entry.1524920972" value=3&gt; </td> <td> &lt;input type="text" size="20" name="entry.291315263" id="entry.291315263" value=4&gt; </td> <td> &lt;input type="text" size="20" name="entry.1458248052" id="entry.1458248052" value=4&gt; </td> <td> &lt;input type="text" size="20" name="entry.691651333" id="entry.691651333" value=2&gt; </td> <td> &lt;input type="text" size="20" name="entry.1662056401" id="entry.1662056401" value=0&gt; </td> </tr>
+  <tr> <td> &lt;input type="text" size="5" name="entry.2009600132" id="entry.2009600132" value=18&gt; </td> <td> &lt;input type="text" size="5" name="entry.1524920972" id="entry.1524920972" value=3&gt; </td> <td> &lt;input type="text" size="5" name="entry.291315263" id="entry.291315263" value=4&gt; </td> <td> &lt;input type="text" size="5" name="entry.1458248052" id="entry.1458248052" value=4&gt; </td> <td> &lt;input type="text" size="5" name="entry.691651333" id="entry.691651333" value=2&gt; </td> <td> &lt;input type="text" size="5" name="entry.1662056401" id="entry.1662056401" value=0&gt; </td> </tr>
    </table>
 [[1]]
 [1] 0
@@ -171,4 +171,4 @@ mkdir: Apr: File exists
 > 
 > proc.time()
    user  system elapsed 
-  0.374   0.063   0.445 
+  0.385   0.066   0.457 

@@ -78,7 +78,7 @@ generatepage <- function(i){
   htmltab2 <- gsub("\n", " ", htmltab)
 
   inputxt <- function(j){
-    paste('<input type="text" size="20" name="', entries[j], '" id="', entries[j], '" value=', subcol[j], '>', sep="")
+    paste('<input type="text" size="5" name="', entries[j], '" id="', entries[j], '" value=', subcol[j], '>', sep="")
   }
   newtab <- as.data.frame(matrix(unlist(lapply(seq_along(entries), inputxt)), nrow = 1))
 
