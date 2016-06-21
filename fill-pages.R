@@ -47,11 +47,6 @@ system(paste("mkdir", themonth))
 #  <input type="hidden" name="entry.40116736" id="entry.40116736" placeholder=XXADNAME, value=XXADNAME><br>
 entries <- c("entry.2009600132", "entry.1524920972", "entry.291315263", "entry.1458248052", "entry.379542407", "entry.846549573", "entry.691651333", "entry.1662056401")
 
-inputxt <- function(i){
-  paste('<input type="text" size="20" name="', entries[i], '" id="', entries[i], '" value=NA>', sep="")
-}
-newtab <- as.data.frame(matrix(unlist(lapply(seq_along(entries), inputxt)), nrow = 1))
-names(newtab) <- c("Invited_nb", "Invited_W", "Instructor_nb", "Instructor_W", "Org_nb", "Org_W", "SciCom_nb", "SciCom_W")
 
 
 generatepage <- function(i){
@@ -81,6 +76,11 @@ generatepage <- function(i){
   names(thetab) <- namsub[colinclude]
   htmltab <- print(xtable(thetab, align = rep("l", length(thetab)+1)), include.rownames = FALSE, type = "html", comment = FALSE)
   htmltab2 <- gsub("\n", " ", htmltab)
+
+  inputxt <- function(j){
+    paste('<input type="text" size="20" name="', entries[j], '" id="', entries[j], '" value=', subcol[j], '>', sep="")
+  }
+  newtab <- as.data.frame(matrix(unlist(lapply(seq_along(entries), inputxt)), nrow = 1))
 
   # Prepare the other table for corrected data
   othertab <- newtab[colinclude]
