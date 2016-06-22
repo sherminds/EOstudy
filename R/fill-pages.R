@@ -19,7 +19,7 @@ if(length(args) == 0){
 require("xtable", quietly = TRUE)
 
 # Load the data
-datatab <- read.csv("data.csv", stringsAsFactors = FALSE)
+datatab <- read.csv("../data/data.csv", stringsAsFactors = FALSE)
 
 # Get the month information from the Ad_date column
 getmonth <- function(str){
@@ -93,7 +93,7 @@ generatepage <- function(i){
   htmlother <- otmp    
   
   # Edit index.html and save it under the ad's name
-  cmd <- paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", tolower(EVENTTYPE), "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXDATE/", ADDATE, "/g' -e 's/XXPC/", PC, "/g'  -e 's,XXTABLE,", htmltab2, ",g'  -e 's,XXOTHERTAB,", htmlother, ",g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < pagetemplate.html > ", themonth, "/", ADNAME, ".html", sep="")
+  cmd <- paste("sed -e 's/XXADNAME/", ADNAME, "/g' -e 's/XXEVENTTYPE/", tolower(EVENTTYPE), "/g' -e 's,XXEVOLDIR,", EVOLDIR, ",g' -e 's,XXWEBSITE,", WEBSITE, ",g' -e 's/XXNBW/", NBW, "/g' -e 's/XXNBS/", NBS, "/g' -e 's/XXDATE/", ADDATE, "/g' -e 's/XXPC/", PC, "/g'  -e 's,XXTABLE,", htmltab2, ",g'  -e 's,XXOTHERTAB,", htmlother, ",g' -e 's,stylesheets/,../stylesheets/,g' -e 's,pics/,../pics/,g' < pagetemplate.html > ../", themonth, "/", ADNAME, ".html", sep="")
   system(cmd)
   return(1)
   }
