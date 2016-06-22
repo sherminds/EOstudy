@@ -37,5 +37,42 @@ Set include = FALSE if
 
 AND do put a comment in the Comments column (last one) to justify the decision. 
 
+## Contents of AllData
+
+Column | Description
+-------|------------- 
+Ad_ID | ID in the database; evoldir email subject (entered automatically)
+Ad_date | Date evoldir email was sent (entered automatically)
+Ad_Type | evoldir category (entered automatically)
+Date_collection | date at which the rest of the data for this line was entered
+Name_collector (F/N/S/L) | Initial of the person who entered these data
+Short_name | Short name for the event, *will be email subject*, so be concise and precise
+Type | Type of event (Symposium, Conference, Workshop, Course, Summer School), *will be in email*
+Include | whether to include in the study/send email. If FALSE, detail in Comments
+Location | Country where event is taking place
+Website | website address of the event *will be in the questionnaire*
+Org_country | Country of the main organizer	
+Invited_nb | Total number of featured speakers (keynote+invited)	
+Invited_W	| Number of female featured speakers (keynote+invited)
+Instructor_nb | Total number of instructors (in case of course)	
+Instructor_W | Number of female instructors (in case of course)	
+Org_nb | Total number of organizers (either local org. committee, or unspecified)	
+Org_W	| Number of female organizers
+SciCom_nb | Total number of people in Scientific Committee (in case it is specified)	
+SciCom_W | Number of women in scientific committee (in case it is specified)
+Org_name1 | Last name of the main organizer	
+Org_email1	| email address of the  main organizer
+Org_name2 | Last name of another organizer	
+Org_email2 | email of this other organizer	
+Org_contacted | whether orgazinizer was contacted	
+Date_emailsent | date at which emails were sent	
+Org_reply | whether organizers replied	
+Date_replyreceived | date at which the reply was received	
+Q1	
+Q2	
+Q3	
+Q4	
+Q5	
+Comments | In particular decision not to include
 
 

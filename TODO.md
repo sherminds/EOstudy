@@ -1,5 +1,5 @@
 # TODO (Flo)
--  link with Google Drive doc to automatically download entire dataset
+-  link with Google Drive answers to automatically download them
 
 #  Questions and notes:
 -  Organizers country is country of the main organizer (first one listed)
