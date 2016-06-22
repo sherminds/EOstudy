@@ -5,9 +5,7 @@ args <- (commandArgs(TRUE))
 # First check to see if arguments are passed.
 # Then cycle through each element of the list and evaluate the expressions.
 if(length(args) == 0){
-  print("No arguments supplied.")
-  # supply default values
-  themonth <- "Apr"
+  stop("No arguments supplied. You need to enter the 3-letter version of the month (Apr, May, ...)")
 }else{
   for(i in 1:length(args)){
     eval(parse(text=args[[i]]))
@@ -15,7 +13,7 @@ if(length(args) == 0){
 }
 
 # Load the data
-datatab <- read.csv("dummydata.csv", stringsAsFactors = FALSE)
+datatab <- read.csv("../data/dummydata.csv", stringsAsFactors = FALSE)
 
 # Get the month information from the Ad_date column
 getmonth <- function(str){
@@ -70,7 +68,7 @@ Flo Debarre, Nicolas Rode, Shermin de Silva, Line Ugelvig.
   cmdemail <- paste('printf "From: EO study <eostudy.2017@gmail.com>\nTo: ', CONTACTEMAIL, '\n', wholeemail, '" | /usr/sbin/sendmail -F "EO study" -f "eostudy.2017@gmail.com" "', CONTACTEMAIL, '"', sep = '')
 
   system(cmdemail)
-
+  return(1) # Way to check that the function has been evaluated
 }
 
 # send the emails!

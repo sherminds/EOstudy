@@ -21,12 +21,14 @@ do
   echo '</p>'
 done > tmplist
 
-# Clean
-rm list.txt
-
 # Concatenate the files
 cat  R/pagedir_part1 tmplist R/pagedir_part2 > pagedir.html
 
-open pagedir.html
-
+# Clean
 rm tmplist
+rm list.txt
+
+# Git 
+git add pagedir.html
+git commit -m "adding toc page"
+git push origin gh-pages
