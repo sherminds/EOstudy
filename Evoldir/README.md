@@ -68,11 +68,11 @@ Org_contacted | whether orgazinizer was contacted
 Date_emailsent | date at which emails were sent	
 Org_reply | whether organizers replied	
 Date_replyreceived | date at which the reply was received	
-Q1	
-Q2	
-Q3	
-Q4	
-Q5	
+Q1 |    
+Q2 |    
+Q3 |    
+Q4 |    
+Q5 |    
 Comments | In particular decision not to include
 
 
