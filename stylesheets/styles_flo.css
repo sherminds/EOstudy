@@ -88,12 +88,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#003D5B;/* was #39c8 */
+  color:#00537E;/* was #39c8 */
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#007A66;
 }
 
 a small {
