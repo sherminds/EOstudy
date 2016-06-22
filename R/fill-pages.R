@@ -19,7 +19,7 @@ if(length(args) == 0){
 require("xtable", quietly = TRUE)
 
 # Load the data
-datatab <- read.csv("../data/data.csv", stringsAsFactors = FALSE)
+datatab <- read.csv("../data/dummydata.csv", stringsAsFactors = FALSE)
 
 # Get the month information from the Ad_date column
 getmonth <- function(str){
