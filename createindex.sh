@@ -4,7 +4,6 @@
 # ! You need to update the list of months in the for loop to include new ones.
 # ! Do not forget to add the new pagedir.html to github!
 
-rm tmplist
 for month in Apr May
 do
   # List the ads in this month
@@ -26,7 +25,7 @@ done > tmplist
 rm list.txt
 
 # Concatenate the files
-cat  pagedir_part1 tmplist pagedir_part2 > pagedir.html
+cat  R/pagedir_part1 tmplist R/pagedir_part2 > pagedir.html
 
 open pagedir.html
 
