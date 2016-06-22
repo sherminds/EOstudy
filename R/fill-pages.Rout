@@ -40,7 +40,7 @@ Warning message:
 package ‘xtable’ was built under R version 3.2.3 
 > 
 > # Load the data
-> datatab <- read.csv("../data/dummydata.csv", stringsAsFactors = FALSE)
+> datatab <- read.csv("../data/data.csv", stringsAsFactors = FALSE)
 > 
 > # Get the month information from the Ad_date column
 > getmonth <- function(str){
@@ -52,7 +52,7 @@ package ‘xtable’ was built under R version 3.2.3
 > # Select also only the lines for which we want to send an email (Include column)
 > subdata <- datatab[monthlines & datatab$Include, ]
 > dim(subdata)
-[1]  4 33
+[1] 25 33
 > 
 > # Create directory with month name
 > system(paste("mkdir", themonth))
@@ -126,35 +126,203 @@ mkdir: Apr: File exists
 > lapply(seq_along(subdata$Ad_ID), generatepage)
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   4 </td> <td>   3 </td> <td>   3 </td> <td>   1 </td> </tr>
+  <tr> <td>   2 </td> <td>   1 </td> <td> 2 </td> <td> 1 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   3 </td> <td>   1 </td> <td>   3 </td> <td>   2 </td> </tr>
+  <tr> <td>   2 </td> <td>   1 </td> <td> 4 </td> <td> 3 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=3 placeholder=3&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>  15 </td> <td>   5 </td> <td> 3 </td> <td> 2 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=15 placeholder=15&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=2 placeholder=2&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td>   6 </td> <td>   3 </td> <td> 6 </td> <td> 4 </td> <td>   9 </td> <td>   3 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.691651333" id="entry.691651333" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1662056401" id="entry.1662056401" value=3 placeholder=3&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td>   4 </td> <td>   2 </td> <td> 4 </td> <td> 1 </td> <td>   2 </td> <td>   0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.691651333" id="entry.691651333" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1662056401" id="entry.1662056401" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   6 </td> <td>   2 </td> <td> 8 </td> <td> 2 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=8 placeholder=8&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=2 placeholder=2&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   9 </td> <td>   3 </td> <td> 1 </td> <td> 1 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   4 </td> <td>   2 </td> <td> 2 </td> <td> 1 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   2 </td> <td>   0 </td> <td> 8 </td> <td> 1 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=0 placeholder=0&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=8 placeholder=8&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   2 </td> <td>   1 </td> <td> 5 </td> <td> 2 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=2 placeholder=2&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   6 </td> <td>   4 </td> <td> 6 </td> <td> 2 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=2 placeholder=2&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
+  <tr> <td>  18 </td> <td>   9 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=18 placeholder=18&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=9 placeholder=9&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   3 </td> <td>   0 </td> <td> 2 </td> <td> 1 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=0 placeholder=0&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td>   4 </td> <td>   2 </td> <td> 11 </td> <td> 4 </td> <td>  21 </td> <td>   6 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=11 placeholder=11&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.691651333" id="entry.691651333" value=21 placeholder=21&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1662056401" id="entry.1662056401" value=6 placeholder=6&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>  21 </td> <td>   9 </td> <td> 2 </td> <td> 2 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=21 placeholder=21&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=2 placeholder=2&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>  10 </td> <td>   5 </td> <td> 2 </td> <td> 0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=10 placeholder=10&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   3 </td> <td>   1 </td> <td> 3 </td> <td> 2 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
   <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=2 placeholder=2&gt; </td> </tr>
    </table>
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   2 </td> <td>   1 </td> <td>  10 </td> <td>  10 </td> </tr>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th>  </tr>
+  <tr> <td>   2 </td> <td>   0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=0 placeholder=0&gt; </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=10 placeholder=10&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=10 placeholder=10&gt; </td> </tr>
+  <tr> <td>   1 </td> <td>   0 </td> <td> 3 </td> <td> 1 </td> </tr>
    </table>
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
-  <tr> <td>  18 </td> <td>   3 </td> <td>   4 </td> <td>   4 </td> <td>   2 </td> <td>   0 </td> </tr>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=0 placeholder=0&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
    </table>
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=18 placeholder=18&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.691651333" id="entry.691651333" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1662056401" id="entry.1662056401" value=0 placeholder=0&gt; </td> </tr>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>  11 </td> <td>   4 </td> <td> 6 </td> <td> 0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=11 placeholder=11&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   2 </td> <td>   1 </td> <td> 2 </td> <td> 1 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   5 </td> <td>   1 </td> <td>   6 </td> <td>   2 </td> <td> 1 </td> <td> 0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   3 </td> <td>   0 </td> <td> 4 </td> <td> 0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=0 placeholder=0&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   3 </td> <td>   1 </td> <td> 1 </td> <td> 0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   7 </td> <td>   1 </td> <td> 2 </td> <td> 0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=7 placeholder=7&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
    </table>
 [[1]]
 [1] 1
@@ -168,9 +336,72 @@ mkdir: Apr: File exists
 [[4]]
 [1] 1
 
+[[5]]
+[1] 1
+
+[[6]]
+[1] 1
+
+[[7]]
+[1] 1
+
+[[8]]
+[1] 1
+
+[[9]]
+[1] 1
+
+[[10]]
+[1] 1
+
+[[11]]
+[1] 1
+
+[[12]]
+[1] 1
+
+[[13]]
+[1] 1
+
+[[14]]
+[1] 1
+
+[[15]]
+[1] 1
+
+[[16]]
+[1] 1
+
+[[17]]
+[1] 1
+
+[[18]]
+[1] 1
+
+[[19]]
+[1] 1
+
+[[20]]
+[1] 1
+
+[[21]]
+[1] 1
+
+[[22]]
+[1] 1
+
+[[23]]
+[1] 1
+
+[[24]]
+[1] 1
+
+[[25]]
+[1] 1
+
 > 
 > 
 > 
 > proc.time()
    user  system elapsed 
-  0.334   0.049   0.376 
+  0.622   0.121   0.735 
