@@ -22,7 +22,7 @@ This (replace `Month` by the 3-letter month)
 
  2) Fill in the summary file
 
-    In the `_summary.md` file for each ad, compile all the names of speakers and organisers that you can find in the evoldir ad and on the ad website (remove *, - and superfluous things to end up with clean lists with one name per line)
+  In the `_summary.md` file for each ad (in `Evoldir/ads/MON`, where MON is 3-letter month), compile all the names of speakers and organisers that you can find in the evoldir ad and on the ad website (remove *, - and superfluous things to end up with clean lists with one name per line)
 
  3) Fill in the Data set
 
@@ -64,15 +64,26 @@ Org_name1 | Last name of the main organizer
 Org_email1	| email address of the  main organizer
 Org_name2 | Last name of another organizer	
 Org_email2 | email of this other organizer	
-Org_contacted | whether orgazinizer was contacted	
-Date_emailsent | date at which emails were sent	
-Org_reply | whether organizers replied	
-Date_replyreceived | date at which the reply was received	
-Q1 |    
-Q2 |    
-Q3 |    
-Q4 |    
-Q5 |    
+Month	| 3-letter month (extracted from Ad_date), for sorting
 Comments | In particular decision not to include
-
-
+Date_emailsent | date at which emails were sent	
+Org_reply1 | Whether organizer replied	after the first email
+Date_relance | Date at which 2nd email was sent
+Org_reply2 | Whether organizer replied after second email
+Timestamp	| /data from answers file:/ date of reply
+Event name | /data from answers file:/ code of event (quality check, has to be the same as Ad_ID)
+Question 0 | /data from answers file:/ 
+New_Invited_nb	| /data from answers file/
+New_Invited_W | /data from answers file/
+New_Instructor_nb | /data from answers file/
+New_Instructor_W | /data from answers file/
+New_Org_nb | /data from answers file/
+New_Org_W | /data from answers file/
+New_SciCom_nb | /data from answers file/
+New_SciCom_W | /data from answers file/
+Question 1 | /data from answers file/
+Question 2 | /data from answers file/
+Question 3 | /data from answers file/
+Question 4 | /data from answers file/
+Question 5 | /data from answers file/
+KeepInformed | /data from answers file/
