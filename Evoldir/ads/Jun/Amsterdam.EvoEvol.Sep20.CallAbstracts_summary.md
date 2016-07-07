@@ -5,7 +5,6 @@
 
 ## Invited speakers
 
-ddd
 
 ## Instructors
 
