@@ -7,7 +7,9 @@
 
 
 ## Instructors
-
+Dr. April Wright 
+Dr. Klaus Schliep
+Dr. Liam Revell
 
 # Organisers
 
