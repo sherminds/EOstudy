@@ -44,7 +44,7 @@ Type 'q()' to quit R.
 > # Select also only the lines for which we want to send an email (Include column)
 > subdata <- datatab[monthlines & datatab$Include, ]
 > dim(subdata)
-[1] 20 33
+[1] 13 46
 > 
 > generateemail <- function(i){
 +   # Generate a personalized email for a given line of the table
@@ -132,30 +132,9 @@ Type 'q()' to quit R.
 [[13]]
 [1] 1
 
-[[14]]
-[1] 1
-
-[[15]]
-[1] 1
-
-[[16]]
-[1] 1
-
-[[17]]
-[1] 1
-
-[[18]]
-[1] 1
-
-[[19]]
-[1] 1
-
-[[20]]
-[1] 1
-
 > 
 > 
 > 
 > proc.time()
    user  system elapsed 
-  0.583   0.292   0.964 
+  0.447   0.199   0.724 
