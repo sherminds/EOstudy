@@ -68,7 +68,7 @@ Flo Debarre, Nicolas Rode, Shermin de Silva, Line Ugelvig.
   cmdemail <- paste('printf "From: EO study <eostudy.2017@gmail.com>\nTo: ', CONTACTEMAIL, '\n', wholeemail, '" | /usr/sbin/sendmail -F "EO study" -f "eostudy.2017@gmail.com" "', CONTACTEMAIL, '"', sep = '')
 
   system(cmdemail)
-  return(1) # Way to check that the function has been evaluated
+  return(ADNAME) # Way to check that the function has been evaluated
 }
 
 # send the emails!
