@@ -37,9 +37,11 @@ This (replace `Month` by the 3-letter month)
 Set include = FALSE if
 
  - no information on invited speakers/info at all (neither in ad nor website)
- - if Course: if run by private company like prstatistics (we want to focus on "academic" events)
+ - if Course: if run by private company like prstatistics (we want to focus on "academic" events). 
 
 AND do put a comment in the Comments column (last one) to justify the decision. 
+
+Note: Do include Courses if there are only instructors listed. The `Type` column is here to help distinguish between Courses, Workshops and Conferences, and hence the different types of "invited speakers". 
 
 ## Assumptions
 
