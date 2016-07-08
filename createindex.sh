@@ -4,7 +4,7 @@
 # ! You need to update the list of months in the for loop to include new ones.
 # ! Do not forget to add the new pagedir.html to github!
 
-for month in Apr May
+for month in Apr May Jun
 do
   # List the ads in this month
   ls ${month} > list.txt
