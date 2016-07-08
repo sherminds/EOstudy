@@ -52,11 +52,10 @@ package ‘xtable’ was built under R version 3.2.3
 > # Select also only the lines for which we want to send an email (Include column)
 > subdata <- datatab[monthlines & datatab$Include, ]
 > dim(subdata)
-[1] 20 33
+[1] 11 46
 > 
 > # Create directory with month name
 > system(paste("mkdir", themonth))
-mkdir: May: File exists
 > 
 > # Prepare the other table for corrected data
 > #   entry.2009600132 =1
@@ -126,100 +125,76 @@ mkdir: May: File exists
 > lapply(seq_along(subdata$Ad_ID), generatepage)
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>  10 </td> <td>   4 </td> <td> 1 </td> <td> 1 </td> </tr>
+  <tr> <td>   8 </td> <td>   6 </td> <td> 1 </td> <td> 1 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=10 placeholder=10&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=8 placeholder=8&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
    </table>
+sh: ../Jun/Tempe_Arizona.EvolutionSex.Nov17-19.html: No such file or directory
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>  12 </td> <td>   6 </td> <td> 3 </td> <td> 3 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=12 placeholder=12&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=3 placeholder=3&gt; </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>  26 </td> <td>  12 </td> <td> 1 </td> <td> 1 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=26 placeholder=26&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=12 placeholder=12&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>  10 </td> <td>   3 </td> <td> 3 </td> <td> 2 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=10 placeholder=10&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=2 placeholder=2&gt; </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   6 </td> <td>   0 </td> <td> 1 </td> <td> 0 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=0 placeholder=0&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
-  <tr> <td>   5 </td> <td>   2 </td> <td> 11 </td> <td> 3 </td> <td>   3 </td> <td>   1 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=11 placeholder=11&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.691651333" id="entry.691651333" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1662056401" id="entry.1662056401" value=1 placeholder=1&gt; </td> </tr>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
+  <tr> <td>   3 </td> <td>   0 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
-  <tr> <td>   8 </td> <td>   1 </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+sh: ../Jun/PortoAlegre_Brazil.HierarchicalPopModeling.Oct9-15.html: No such file or directory
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td>   4 </td> <td>   1 </td> <td>   9 </td> <td>   6 </td> <td> 3 </td> <td> 1 </td> <td>   2 </td> <td>   0 </td> </tr>
    </table>
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=8 placeholder=8&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> </tr>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.691651333" id="entry.691651333" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1662056401" id="entry.1662056401" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+sh: ../Jun/MathVillage_Turkey.QuantEvolBiol.Sep18-25.html: No such file or directory
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   7 </td> <td>   1 </td> <td> 2 </td> <td> 1 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>  28 </td> <td>  11 </td> <td> 2 </td> <td> 0 </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=7 placeholder=7&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
    </table>
+sh: ../Jun/SwissAlps.Social_Decisions.Jul19-22.html: No such file or directory
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=28 placeholder=28&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=11 placeholder=11&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td>   4 </td> <td>   1 </td> <td> 12 </td> <td> 2 </td> <td>  16 </td> <td>   5 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
-  <tr> <td>   9 </td> <td>   3 </td> <td> 7 </td> <td> 0 </td> <td>   2 </td> <td>   0 </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=12 placeholder=12&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.691651333" id="entry.691651333" value=16 placeholder=16&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1662056401" id="entry.1662056401" value=5 placeholder=5&gt; </td> </tr>
+   </table>
+sh: ../Jun/Antwerp.NatureConservation.Dec15-17.html: No such file or directory
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
+  <tr> <td>   5 </td> <td>   3 </td> <td> 8 </td> <td> 5 </td> <td>  10 </td> <td>   5 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th> <th> #ScientificCommittee_Total </th> <th> #ScientificCommittee_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=7 placeholder=7&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> <td> &lt;input type="text" size="3em" name="entry.691651333" id="entry.691651333" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1662056401" id="entry.1662056401" value=0 placeholder=0&gt; </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=8 placeholder=8&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.691651333" id="entry.691651333" value=10 placeholder=10&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1662056401" id="entry.1662056401" value=5 placeholder=5&gt; </td> </tr>
+   </table>
+sh: ../Jun/Oviedo_Spain.AlertTools.html: No such file or directory
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>  29 </td> <td>  12 </td> <td> 2 </td> <td> 0 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>  19 </td> <td>   7 </td> <td> 12 </td> <td> 4 </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=29 placeholder=29&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=12 placeholder=12&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+sh: ../Jun/Roscoff.EvolGenomicsSystemsBiol.Oct10-14.DeadlineJun22.html: No such file or directory
+<table border=1>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   2 </td> <td>   1 </td> <td> 2 </td> <td> 1 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=19 placeholder=19&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=7 placeholder=7&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=12 placeholder=12&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=4 placeholder=4&gt; </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
    </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   9 </td> <td>   5 </td> <td> 4 </td> <td> 0 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>  18 </td> <td>   9 </td> <td> 5 </td> <td> 3 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=18 placeholder=18&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=3 placeholder=3&gt; </td> </tr>
-   </table>
+sh: ../Jun/Italy.ComputLandscapeGenetics.Oct12-14.html: No such file or directory
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
   <tr> <td>   7 </td> <td>   1 </td> <td> 5 </td> <td> 0 </td> </tr>
@@ -228,62 +203,25 @@ mkdir: May: File exists
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
   <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=7 placeholder=7&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
    </table>
+sh: ../Jun/Barcelona.PopGeneticsEvol.Oct3-5.AbstractDeadline.html: No such file or directory
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   9 </td> <td>   3 </td> <td> 2 </td> <td> 1 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   9 </td> <td>   6 </td> <td> 9 </td> <td> 5 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=5 placeholder=5&gt; </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   2 </td> <td>   0 </td> <td> 2 </td> <td> 2 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=0 placeholder=0&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=2 placeholder=2&gt; </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   6 </td> <td>   1 </td> <td>   3 </td> <td>   1 </td> <td> 3 </td> <td> 1 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=6 placeholder=6&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
+  <tr> <td>  11 </td> <td>   1 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
-  <tr> <td>  13 </td> <td>   2 </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=11 placeholder=11&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> </tr>
    </table>
+sh: ../Jun/Paris.ExperimentalEvolution.Nov7-11.html: No such file or directory
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=13 placeholder=13&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=2 placeholder=2&gt; </td> </tr>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>  22 </td> <td>   8 </td> <td> 3 </td> <td> 1 </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td>   5 </td> <td>   2 </td> <td> 2 </td> <td> 1 </td> </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=22 placeholder=22&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=8 placeholder=8&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
    </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th>  </tr>
-  <tr> <td>   9 </td> <td>   4 </td> <td>   8 </td> <td>   7 </td> </tr>
-   </table>
-<table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Instructors_Total </th> <th> #Instructor_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=9 placeholder=9&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=4 placeholder=4&gt; </td> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=8 placeholder=8&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=7 placeholder=7&gt; </td> </tr>
-   </table>
+sh: ../Jun/WeizmannInstSci.GenomeEvolution.Nov1-3.html: No such file or directory
 [[1]]
 [1] 1
 
@@ -317,36 +255,9 @@ mkdir: May: File exists
 [[11]]
 [1] 1
 
-[[12]]
-[1] 1
-
-[[13]]
-[1] 1
-
-[[14]]
-[1] 1
-
-[[15]]
-[1] 1
-
-[[16]]
-[1] 1
-
-[[17]]
-[1] 1
-
-[[18]]
-[1] 1
-
-[[19]]
-[1] 1
-
-[[20]]
-[1] 1
-
 > 
 > 
 > 
 > proc.time()
    user  system elapsed 
-  0.589   0.113   0.709 
+  0.482   0.088   0.620 
