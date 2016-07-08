@@ -11,6 +11,9 @@ fi
 
 echo "${1}"
 
+# Create folder with the month
+mkdir ${1}
+
 # Get today's date
 todaydate=$(date +%Y-%m-%d)
 
