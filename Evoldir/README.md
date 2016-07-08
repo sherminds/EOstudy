@@ -37,6 +37,10 @@ Set include = FALSE if
 
 AND do put a comment in the Comments column (last one) to justify the decision. 
 
+## Assumptions
+
+If no other piece of information is found about the organizers, assume that the person who sent the evoldir email is an organizers. We need to try to always fill in entries for the organizers as well.
+
 ## Contents of AllData
 
 Column | Description
