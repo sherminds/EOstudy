@@ -28,6 +28,10 @@ This (replace `Month` by the 3-letter month)
 
    For each ad, fill in the AllData table in Google drive 
 
+## Hesitations
+
+** If you have any hesitation about an entry, please flag it with a bright background color** 
+
 ## Inclusion rule
 
 Set include = FALSE if
