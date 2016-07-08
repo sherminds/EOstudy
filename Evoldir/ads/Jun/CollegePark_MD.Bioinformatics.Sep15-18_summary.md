@@ -7,7 +7,8 @@
 
 
 ## Instructors
-
+Dr. Nic Blouin
+Dr. Ian Misner 
 
 # Organisers
 

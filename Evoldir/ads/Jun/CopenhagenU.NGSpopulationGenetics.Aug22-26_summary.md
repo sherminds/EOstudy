@@ -7,7 +7,11 @@
 
 
 ## Instructors
-
+Brenna Henn
+Matteo Fumagalli
+Fernando Racimo
+Anders Albrechtsen 
+Ida Moltke
 
 # Organisers
 
