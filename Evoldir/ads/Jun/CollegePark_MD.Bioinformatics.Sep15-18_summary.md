@@ -15,5 +15,6 @@ Dr. Ian Misner
 
 ## Organizing committee
 
+Nic and Ian
 
 ## Scientific committee

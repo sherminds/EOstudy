@@ -16,5 +16,6 @@ Dr. Thibaut Jombart, Imperial College London (UK)
 
 ## Organizing committee
 
+Caroline Betto-Colliard 
 
 ## Scientific committee

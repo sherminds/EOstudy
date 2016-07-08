@@ -16,5 +16,6 @@ Dr. Liam Revell
 
 ## Organizing committee
 
+Liam J. Revell
 
 ## Scientific committee
