@@ -239,4 +239,4 @@ mkdir: Jun: File exists
 > 
 > proc.time()
    user  system elapsed 
-  0.456   0.090   0.584 
+  0.410   0.069   0.469 
