@@ -72,6 +72,10 @@ Flo Debarre, Nicolas Rode, Shermin de Silva, Line Ugelvig.
 }
 
 # send the emails!
-lapply(seq_along(subdata$Ad_ID), generateemail)
+# Do it in a loop to add a pause in the execution (otherwise Gmail complains)
+for(i in seq_along(subdata$Ad_ID)){
+  generateemail(i)
+  Sys.sleep(4)
+}
 
 
