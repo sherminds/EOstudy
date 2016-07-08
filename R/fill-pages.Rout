@@ -52,7 +52,7 @@ package ‘xtable’ was built under R version 3.2.3
 > # Select also only the lines for which we want to send an email (Include column)
 > subdata <- datatab[monthlines & datatab$Include, ]
 > dim(subdata)
-[1] 10 46
+[1] 13 46
 > 
 > # Create directory with month name
 > system(paste("mkdir", themonth))
@@ -189,6 +189,22 @@ mkdir: Jun: File exists
   <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=7 placeholder=7&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
    </table>
 <table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   3 </td> <td>   0 </td> <td> 1 </td> <td> 1 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=0 placeholder=0&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   3 </td> <td>   1 </td> <td> 1 </td> <td> 0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
+   </table>
+<table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
   <tr> <td>  11 </td> <td>   1 </td> <td> 1 </td> <td> 0 </td> </tr>
    </table>
@@ -203,6 +219,14 @@ mkdir: Jun: File exists
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
   <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=22 placeholder=22&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=8 placeholder=8&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=3 placeholder=3&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=1 placeholder=1&gt; </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>   2 </td> <td>   0 </td> <td> 2 </td> <td> 0 </td> </tr>
+   </table>
+<table border=1>
+<tr> <th> #Instructors_Total </th> <th> #Instructor_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.291315263" id="entry.291315263" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1458248052" id="entry.1458248052" value=0 placeholder=0&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=2 placeholder=2&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
    </table>
 [[1]]
 [1] 1
@@ -234,9 +258,18 @@ mkdir: Jun: File exists
 [[10]]
 [1] 1
 
+[[11]]
+[1] 1
+
+[[12]]
+[1] 1
+
+[[13]]
+[1] 1
+
 > 
 > 
 > 
 > proc.time()
    user  system elapsed 
-  0.476   0.089   0.592 
+  0.494   0.098   0.618 
