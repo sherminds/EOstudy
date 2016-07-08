@@ -189,12 +189,12 @@ mkdir: Jun: File exists
   <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=7 placeholder=7&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=5 placeholder=5&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
    </table>
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
-  <tr> <td>  11 </td> <td>   1 </td> </tr>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td>  11 </td> <td>   1 </td> <td> 1 </td> <td> 0 </td> </tr>
    </table>
 <table border=1>
-<tr> <th> #Invited_Total </th> <th> #Invited_Women </th>  </tr>
-  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=11 placeholder=11&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> </tr>
+<tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
+  <tr> <td> &lt;input type="text" size="3em" name="entry.2009600132" id="entry.2009600132" value=11 placeholder=11&gt; </td> <td> &lt;input type="text" size="3em" name="entry.1524920972" id="entry.1524920972" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.379542407" id="entry.379542407" value=1 placeholder=1&gt; </td> <td> &lt;input type="text" size="3em" name="entry.846549573" id="entry.846549573" value=0 placeholder=0&gt; </td> </tr>
    </table>
 <table border=1>
 <tr> <th> #Invited_Total </th> <th> #Invited_Women </th> <th> #Organizers_Total </th> <th> #Organizers_Women </th>  </tr>
@@ -239,4 +239,4 @@ mkdir: Jun: File exists
 > 
 > proc.time()
    user  system elapsed 
-  0.410   0.069   0.469 
+  0.466   0.093   0.595 
