@@ -16,5 +16,6 @@ Gonçalo Ferraz, Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil
 
 ## Organizing committee
 
+Gonçalo Ferraz
 
 ## Scientific committee

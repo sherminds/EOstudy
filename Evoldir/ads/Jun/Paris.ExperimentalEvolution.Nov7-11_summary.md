@@ -24,5 +24,6 @@ Arjan de Visser (Wageningen UR).
 
 ## Organizing committee
 
+Henrique Teotonio
 
 ## Scientific committee
