@@ -32,6 +32,11 @@ The script automatically pushes this new page to Github.
   - Check consistency between names and emails.  
 The script will download the current state of this table as `csv` file (in the `data/` folder), make a copy with today's date.
 
+OR
+  - run `R/qualitycontrol.R` to do a series of tests. 
+    You will need to change `mymonth` at the bottom of the file.
+
+
 - In a terminal, type
 ```{sh}
 ./send-emails.sh Mon
