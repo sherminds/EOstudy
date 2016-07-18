@@ -40,6 +40,15 @@ where Mon is a 3-letter version of the month you want to send the emails for (Ap
 
 - Go to the EOstudy Gmail account, check the `Sent` folder. 
 
+## Send the reminders
+
+### Checklist
+
+- Make sure that you have integrated the Responses in the AllData file!
+  (TODO: a R script to check this)
+
+
+
 # Acknowledgements
 
 Trick for the forms found there <https://github.com/toperkin/staticFormEmails/blob/master/README.md>

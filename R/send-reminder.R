@@ -1,0 +1,103 @@
+# First read in the arguments listed at the command line
+args <- (commandArgs(TRUE))
+
+# args is now a list of character vectors
+# First check to see if arguments are passed.
+# Then cycle through each element of the list and evaluate the expressions.
+if(length(args) == 0){
+  stop("No arguments supplied. You need to enter the 3-letter version of the month (Apr, May, ...)")
+}else{
+  for(i in 1:length(args)){
+    eval(parse(text=args[[i]]))
+  }
+}
+
+# Load the data (downloaded just earlier in the sh script)
+datatab <- read.csv("../data/data.csv", stringsAsFactors = FALSE)
+
+# Load the responses (also just downloaded)
+resptab <- read.csv("../data/responses.csv", stringsAsFactors = FALSE)
+
+# QUALITY CONTROL
+# Double-check that responses have been entered: do not proceed further if it has not been the case
+resp.names <- sort(unique(resptab$Event.name))
+data.names <- sort(datatab[!is.na(datatab$Org_reply1) & datatab$Include==TRUE, 1])
+
+# 1) Check numbers
+resp.nb <- length(resp.names)
+data.nb <- length(data.names)
+if(resp.nb != data.nb) stop("Not all responses have been entered! Aborting.")
+
+# 2) Check names
+if(any(resp.names != data.names)){
+  print(cbind(resp.names[resp.names != data.names], data.names[resp.names != data.names]))
+  stop("Problems with some lines")
+} 
+
+# Get the month information from the Ad_date column
+getmonth <- function(str){
+  head(strsplit(str, split=" ")[[1]],1)
+}
+months <- vapply(datatab$Ad_date, getmonth, "a", USE.NAMES = FALSE)
+monthlines <- (months==themonth)
+
+# Select also only the lines for which we want to send an email (Include column)
+subdata <- datatab[monthlines & datatab$Include & is.na(datatab$Org_reply1), ]
+dim(subdata)
+
+generatereminder <- function(i){
+  # Generate a personalized email for a given line of the table
+  v <- subdata[i,]
+  ADNAME <- v$Ad_ID
+  ADDATE <- v$Ad_date
+  EVENTTYPE <- v$Type
+  CONTACTNAME <- v$Org_name1
+  CONTACTEMAIL <- v$Org_email1
+  QADDRESS <- paste("https://flodebarre.github.io/EOstudy/", themonth, "/", ADNAME, ".html", sep = "")
+  EVENTSHORTNAME <- v$Short_name
+  
+  emailtxt <- "Dear Dr. XXNAME,
+
+We recently invited you to participate in our study on the gender distribution of invited(*) speakers at scientific events advertised on the Evoldir mailing list.
+  
+We would be very grateful if you could take 2 minutes to fill in the short questionnaire available at 
+XXQADDRESS .
+
+Every response is valuable!
+
+We thank you in advance for your time.
+Please feel free to contact us should you have any question.
+  
+Best wishes,
+  
+Flo Debarre, Nicolas Rode, Shermin de Silva, Line Ugelvig.
+
+(*) In case this is unclear, by /invited speakers/ we mean scientists who accepted your invitation, and hence are coming to the XXEVENTTYPE. 
+
+-------------------------------------------------
+ EO-study
+  website: http://flodebarre.github.io/EOstudy
+  email: eostudy.2017@gmail.com
+-------------------------------------------------"
+  
+ # Fill in the blanks
+  tmp <- gsub("XXNAME", CONTACTNAME, emailtxt)
+  tmp <- gsub("XXEVENTTYPE", tolower(EVENTTYPE), tmp)
+  tmp <- gsub("XXQADDRESS", QADDRESS, tmp)
+  wholeemail <- paste("Subject: Questions on ", EVENTSHORTNAME, "\n\n", tmp, "\n", sep="")
+  
+  # Write the whole command to send the email
+  cmdemail <- paste('printf "From: EO study <eostudy.2017@gmail.com>\nTo: ', CONTACTEMAIL, '\n', wholeemail, '" | /usr/sbin/sendmail -F "EO study" -f "eostudy.2017@gmail.com" "', CONTACTEMAIL, '"', sep = '')
+
+  system(cmdemail)
+  return(ADNAME) # Way to check that the function has been evaluated
+}
+
+# send the emails!
+# Do it in a loop to add a pause in the execution (otherwise Gmail complains)
+for(i in seq_along(subdata$Ad_ID)){
+  generatereminder(i)
+  Sys.sleep(4)
+}
+
+
