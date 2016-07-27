@@ -1,3 +1,4 @@
+# Option not to print the input in the .Rout file
 options(echo = FALSE)
 
 # First read in the arguments listed at the command line

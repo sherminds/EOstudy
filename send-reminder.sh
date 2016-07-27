@@ -1,4 +1,4 @@
-#!/bin/bash/Users/flo/Documents/Work/Projects/EOstudy/test.sh
+#!/bin/bash
 
 # Argument: month (3 letter version, e.g., Apr)
 
@@ -31,6 +31,7 @@ cp data/responses.csv data/responses${todaydate}.csv
 # Run the R script that will generate the pages
 # (the series of '" are here because we need " for the R argument to be considered as text, 
 #  the args have to be within ', but $ is expanded within ")
+printf "Sending reminders...\nNOTE: This takes a while because there is a 4-second pause between two emails (otherwise Gmail complains)."
 cd R/
 R CMD BATCH --no-save --no-restore '--args themonth="'"${1}"'"' send-reminder.R
 cd ../
