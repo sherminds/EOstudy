@@ -1,0 +1,276 @@
+
+R version 3.2.2 (2015-08-14) -- "Fire Safety"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> options(echo = FALSE)
+1)    Check insertion of the responses in AllData file:
+
+- All responses have been entered
+- Names are OK
+
+============================================
+2)    Looking for duplicates
+
+                                                        Ad_ID Ad_date Include
+48                          Ankara.EcolEvolBiology.Aug31-Sep3  Apr 09    TRUE
+68 Asilomar_California.ConservationAndGeneExpression.Sep19-23  May 06    TRUE
+51               Asilomar_California.LocalAdaptation.Jul14-17  Apr 17    TRUE
+42                       Barcelona.GeneticBasisOfShape.Sep6-9  Apr 07    TRUE
+66        Barcelona.GeneticsEvolution.Oct3-5.RegistrationOpen  May 04    TRUE
+45                    Girona.EvolutionMarineMicrobes.Jun18-24  Apr 07    TRUE
+46                  Girona.EvolutionMarineMicrobes.Jun18-24_2  Apr 07    TRUE
+91                     Italy.ComputLandscapeGenetics.Oct12-14  Jun 17    TRUE
+82                     Montana.ConservationGenetics.Sep5-10.2  May 26    TRUE
+49             Perugia_Italy.ComputLandscapeGenetics.Oct12-14  Apr 11    TRUE
+86         PortoAlegre_Brazil.HierarchicalPopModeling.Oct9-15  Jun 06    TRUE
+73           Roscoff.EvolutionaryGenomicsSystemsBiol.Oct10-14  May 12    TRUE
+76                                  UMontreal.RECOMB.Oct11-14  May 18    TRUE
+74                       Vienna.PopulationGenetics.Oct31-Nov1  May 13    TRUE
+
+-- Check in the above table that there are no duplicates --
+Note: Girona.EvolutionMarineMicrobes.Jun18-24_2 in Apr is normal.
+
+============================================
+3)    Checking that all columns are OK
+
+                                                            Ad_ID Ad_date
+40 UTennessee_Knoxville.NIMBioSTutorial.EvolQuantGenetics.Aug8-12  Apr 02
+41                      Maynooth_Ireland.Phylogenomics.May29-Jun3  Apr 05
+42                           Barcelona.GeneticBasisOfShape.Sep6-9  Apr 07
+43                      ColoradoStateU.GenomicsOfAdaptation.Jul30  Apr 07
+44                           Denver_CO.EvolutionInCognition.Jul21  Apr 07
+45                        Girona.EvolutionMarineMicrobes.Jun18-24  Apr 07
+46                      Girona.EvolutionMarineMicrobes.Jun18-24_2  Apr 07
+47            Hinxton_UK.HumGenomeAnalysis.JUL20-26.DEADLINE_APR8  Apr 07
+48                              Ankara.EcolEvolBiology.Aug31-Sep3  Apr 09
+49                 Perugia_Italy.ComputLandscapeGenetics.Oct12-14  Apr 11
+50                   Zagori_Greece.ConservationBiology.Jun27-Jul8  Apr 11
+51                   Asilomar_California.LocalAdaptation.Jul14-17  Apr 17
+52                         Montpellier.EcolEvolutionModels.Jun6-7  Apr 19
+53           Gold_Coast_Australia.SMBE_StructuralVariation.Jul3-7  Apr 20
+54                 Edinburgh.EvolutionaryQuantGenetics.Oct31-Nov4  Apr 23
+55                          CornellU.EEID_EvolutionDisease.Jun3-5  Apr 26
+56                               Edinburgh.TelomereDynamics.31Oct  Apr 26
+57       UGoettingen_Germany.ConservationGenetics.Oct5-7.Reminder  Apr 26
+58                  DurhamNC.EvolutionaryMedicineSociety.Jun22-25  Apr 27
+59               FloridaStateU.EcolEvolutionEthologyFish.Jun14-16  Apr 27
+60                      Hinxton_UK.VirusGenomicsEvolution.Jun8-10  Apr 27
+61                    Ilhabela_Brazil.AmoebaeSystematics.Sep12-15  Apr 27
+62 GoldCoast_Australia.SMBE_AncientDNA_and_HumanInnovation.Jul3-7  Apr 28
+63       Toronto.MappingGenomicFeaturesClinicalTraits.Jul18-Jul19  Apr 28
+64                            Manchester.MolGenomeEvolution.Jun20  Apr 30
+65                           Gotland.PhdStudentsEvolBiol.Sep11-15  May 03
+66            Barcelona.GeneticsEvolution.Oct3-5.RegistrationOpen  May 04
+67                           Cambridge_UK.PlantEvolution.Sep15-16  May 04
+68     Asilomar_California.ConservationAndGeneExpression.Sep19-23  May 06
+69             LakeArrowhead_California.MicrobialGenomes.Sep18-22  May 06
+70                               London.EvolutionaryConflict.Jun8  May 06
+71                        Helsinki.WildPlantPathoSystems.Aug29-31  May 10
+72                             Barcelona.EvolutionMedicine.Oct6-7  May 11
+73               Roscoff.EvolutionaryGenomicsSystemsBiol.Oct10-14  May 12
+74                           Vienna.PopulationGenetics.Oct31-Nov1  May 13
+75                                  UGoettingen.Networks.Oct12-13  May 18
+76                                      UMontreal.RECOMB.Oct11-14  May 18
+77       Villars_sur_Ollon_Switzerland.EvolNoncodingRNA.Sept12-14  May 19
+78                             DukeU.MadagascarEvolution.Sep21-23  May 20
+79                                       Paris.Mutualism.May30-31  May 21
+80                               KansasCity.EcolGenomics.Oct28-30  May 24
+81          UGothenburg.MetageneticBioinformaticPipelines.Nov7-11  May 25
+82                         Montana.ConservationGenetics.Sep5-10.2  May 26
+83                   Barcelona.PhylogeneticAnalysisUsingR.Mar6-10  May 29
+84                                      UExeter.PoreCamp.Aug15-19  May 29
+85                            Tempe_Arizona.EvolutionSex.Nov17-19  Jun 01
+86             PortoAlegre_Brazil.HierarchicalPopModeling.Oct9-15  Jun 06
+87                      MathVillage_Turkey.QuantEvolBiol.Sep18-25  Jun 07
+88                            SwissAlps.Social_Decisions.Jul19-22  Jun 08
+89                            Antwerp.NatureConservation.Dec15-17  Jun 11
+90                                        Oviedo_Spain.AlertTools  Jun 14
+91                         Italy.ComputLandscapeGenetics.Oct12-14  Jun 17
+92              Barcelona.PopGeneticsEvol.Oct3-5.AbstractDeadline  Jun 24
+93                        Lausanne.PopulationGenomicsInR.Aug22-26  Jun 28
+94                      Nantucket.Phylogenetic.DevelopeR.Bootcamp  Jun 28
+95                            Paris.ExperimentalEvolution.Nov7-11  Jun 29
+96                         WeizmannInstSci.GenomeEvolution.Nov1-3  Jun 29
+97                         CollegePark_MD.Bioinformatics.Sep15-18  Jun 30
+                                  Short_name          Type           Org_name1
+40        NIMBioS Evol. Quant. Gen. Tutorial        Course         Felsenstein
+41                    Maynooth Summer School Summer School           Mcinerney
+42             Genetic Basis of Shape Course        Course              Marigo
+43            Genomics Local Adap. Symposium     Symposium              Moyers
+44             Evolution in Cognition Course        Course           de Vladar
+45                       Marine Microbes GRC    Conference             Legrand
+46                       Marine Microbes GRS    Conference           del Campo
+47                       Human Genome course        Course               Weeks
+48                         Eco-Evo symposium    Conference               Bekar
+49  Computational landscape genetics session     Symposium               Joost
+50                       Conservation Course        Course          Kallimanis
+51               Local adaptation conference    Conference               Delph
+52                                       MEE    Conference             Anciaux
+53                            SMBE symposium     Symposium                Daub
+54                  Evol. Quant. Gen. Course        Course              Hickey
+55                                      EEID    Conference             Lazzaro
+56                Telomere Dynamics Workshop      Workshop              Nussey
+57          Conservation Genetics Conference    Conference              Balken
+58                                    ISEMPH    Conference               Nesse
+59                                      EEEF    Conference             Coleman
+60   Virus Genomics and Evolution conference    Conference              Breuer
+61                                     ISTA8    Conference                Lahr
+62                            SMBE symposium     Symposium            Guenther
+63                           Genomics Course        Course               Meyer
+64 Molecular and Genome Evolution conference    Conference             Gifford
+65                            EMPSEB meeting    Conference               Jones
+66                            Sitges meeting     Symposium                Ruiz
+67                UK Plant Evolution meeting     Symposium              Glover
+68                         Asilomar workshop      Workshop               Meyer
+69                           LAMG conference    Conference              Miller
+70                                 2016 CEES     Symposium                Hill
+71          Wild Plant Pathosystems workshop    Conference               Laine
+72           Evolution and Medecine workshop     Symposium                Prat
+73     Roscoff Evolutionary genomics meeting    Conference            Vekemans
+74                            Mind the Gap 5    Conference                Hosp
+75            Networks in Biology conference    Conference             Posnien
+76                           RECOMB workshop      Workshop              Chauve
+77                    Villars Symposium 2016     Symposium             Poirier
+78                Duke Anniversary symposium     Symposium               Yoder
+79                        Mutualisms meeting     Symposium           Bronstein
+80             Ecological Genomics Symposium     Symposium              Rhodes
+81                     Bioinformatics course        Course             Bourlat
+82                               ConGen 2016        Course             Luikart
+83                      Phylogenetics course        Course De Esteban-Trivigno
+84                             MinION course        Course         Paszkiewicz
+85   Evolutionary Genomics of Sex Conference    Conference                 Ott
+86            Hierarchical Modeling Workshop      Workshop              Ferraz
+87                     Math Village Workshop      Workshop              Tugrul
+88                 Social Decisions workshop      Workshop        Schneeberger
+89                     Zoology 2016 congress    Conference            De Boeck
+90                        Alertools workshop      Workshop             Borrell
+91                                 OGRS 2016     Symposium               Joost
+92                          Pop Gen workshop      Workshop                Ruiz
+93                                 Pop Gen R      Workshop              Goudet
+94                    Phylogenetics course R      Workshop              Revell
+95             Experimental Evolution Course        Course            Teotonio
+96                     Genome Evolution 2016    Conference              Pilpel
+97                          Biodata Training        Course              Blouin
+                                Org_email1
+40                   joe@gs.washington.edu
+41        James.McInerney@manchester.ac.uk
+42    judit.marigo@transmittingscience.org
+43                    moyers@colostate.edu
+44 Harold.Vladar@parmenides-foundation.org
+45                catherine.legrand@lnu.se
+46           javier.delcampo@botany.ubc.ca
+47                          weeks@pitt.edu
+48                 ismailbekar53@gmail.com
+49                  stephane.joost@epfl.ch
+50                    kalliman@bio.auth.gr
+51                  AGAJOH@oregonstate.edu
+52                 anciaux.yoann@gmail.com
+53                  josephine.daub@upf.edu
+54             John.Hickey@roslin.ed.ac.uk
+55                   bplazzaro@cornell.edu
+56              dnussey@staffmail.ed.ac.uk
+57                         nbalken@gwdg.de
+58                           nesse@asu.edu
+59                        fcoleman@fsu.edu
+60                      j.breuer@ucl.ac.uk
+61                   daniel.lahr@gmail.com
+62                      tguenther@zoho.com
+63                    Ann.Meyer@oicr.on.ca
+64          danna.gifford@manchester.ac.uk
+65                      empseb22@gmail.com
+66                    Alfredo.Ruiz@uab.cat
+67                         bjg26@cam.ac.uk
+68                           rm181@nyu.edu
+69              jhmiller@microbio.ucla.edu
+70                  mark.hill.13@ucl.ac.uk
+71            anna-liisa.laine@helsinki.fi
+72                      laura.prat@crg.eu 
+73          xavier.vekemans@univ-lille1.fr
+74              Julia.Hosp@vetmeduni.ac.at
+75 Nico.Posnien@biologie.uni-goettingen.de
+76                    cedric.chauve@sfu.ca
+77                    Yves.Poirier@unil.ch
+78                     anne.yoder@duke.edu
+79                judieb@email.arizona.edu
+80                  jenniferrhodes@ksu.edu
+81              sarah.bourlat@marine.gu.se
+82             gordon.luikart@umontana.edu
+83       coursests@transmittingscience.org
+84            research-events@exeter.ac.uk
+85                      Lenora.Ott@asu.edu
+86                 goncalo.ferraz@ufrgs.br
+87                    muratugrul@gmail.com
+88         karin.schneeberger@iee.unibe.ch
+89               zoology2016@uantwerpen.be
+90                 borrellyaisel@uniovi.es
+91                  stephane.joost@epfl.ch
+92                    Alfredo.Ruiz@uab.cat
+93                   jerome.goudet@unil.ch
+94                     Liam.Revell@umb.edu
+95                teotonio@biologie.ens.fr
+96                   pilpel@weizmann.ac.il
+97               biodatatraining@gmail.com
+--    Printing only the output for  Jun 
+
+                                                Ad_ID Ad_date
+85                Tempe_Arizona.EvolutionSex.Nov17-19  Jun 01
+86 PortoAlegre_Brazil.HierarchicalPopModeling.Oct9-15  Jun 06
+87          MathVillage_Turkey.QuantEvolBiol.Sep18-25  Jun 07
+88                SwissAlps.Social_Decisions.Jul19-22  Jun 08
+89                Antwerp.NatureConservation.Dec15-17  Jun 11
+90                            Oviedo_Spain.AlertTools  Jun 14
+91             Italy.ComputLandscapeGenetics.Oct12-14  Jun 17
+92  Barcelona.PopGeneticsEvol.Oct3-5.AbstractDeadline  Jun 24
+93            Lausanne.PopulationGenomicsInR.Aug22-26  Jun 28
+94          Nantucket.Phylogenetic.DevelopeR.Bootcamp  Jun 28
+95                Paris.ExperimentalEvolution.Nov7-11  Jun 29
+96             WeizmannInstSci.GenomeEvolution.Nov1-3  Jun 29
+97             CollegePark_MD.Bioinformatics.Sep15-18  Jun 30
+                                Short_name       Type    Org_name1
+85 Evolutionary Genomics of Sex Conference Conference          Ott
+86          Hierarchical Modeling Workshop   Workshop       Ferraz
+87                   Math Village Workshop   Workshop       Tugrul
+88               Social Decisions workshop   Workshop Schneeberger
+89                   Zoology 2016 congress Conference     De Boeck
+90                      Alertools workshop   Workshop      Borrell
+91                               OGRS 2016  Symposium        Joost
+92                        Pop Gen workshop   Workshop         Ruiz
+93                               Pop Gen R   Workshop       Goudet
+94                  Phylogenetics course R   Workshop       Revell
+95           Experimental Evolution Course     Course     Teotonio
+96                   Genome Evolution 2016 Conference       Pilpel
+97                        Biodata Training     Course       Blouin
+                        Org_email1
+85              Lenora.Ott@asu.edu
+86         goncalo.ferraz@ufrgs.br
+87            muratugrul@gmail.com
+88 karin.schneeberger@iee.unibe.ch
+89       zoology2016@uantwerpen.be
+90         borrellyaisel@uniovi.es
+91          stephane.joost@epfl.ch
+92            Alfredo.Ruiz@uab.cat
+93           jerome.goudet@unil.ch
+94             Liam.Revell@umb.edu
+95        teotonio@biologie.ens.fr
+96           pilpel@weizmann.ac.il
+97       biodatatraining@gmail.com
+
+============================================
+> proc.time()
+   user  system elapsed 
+  0.310   0.048   0.364 
