@@ -19,14 +19,16 @@ Type 'q()' to quit R.
 
 > # Option not to print the input in the .Rout file
 > options(echo = FALSE)
-[1]  7 47
-[1] "Tempe_Arizona.EvolutionSex.Nov17-19"
-[1] "SwissAlps.Social_Decisions.Jul19-22"
-[1] "Antwerp.NatureConservation.Dec15-17"
-[1] "Barcelona.PopGeneticsEvol.Oct3-5.AbstractDeadline"
-[1] "Nantucket.Phylogenetic.DevelopeR.Bootcamp"
-[1] "WeizmannInstSci.GenomeEvolution.Nov1-3"
-[1] "CollegePark_MD.Bioinformatics.Sep15-18"
+[1]  9 47
+[1] "Barcelona.GeneticsEvolution.Oct3-5.RegistrationOpen"
+[1] "Cambridge_UK.PlantEvolution.Sep15-16"
+[1] "Asilomar_California.ConservationAndGeneExpression.Sep19-23"
+[1] "Barcelona.EvolutionMedicine.Oct6-7"
+[1] "Roscoff.EvolutionaryGenomicsSystemsBiol.Oct10-14"
+[1] "KansasCity.EcolGenomics.Oct28-30"
+[1] "UGothenburg.MetageneticBioinformaticPipelines.Nov7-11"
+[1] "Montana.ConservationGenetics.Sep5-10.2"
+[1] "UExeter.PoreCamp.Aug15-19"
 > proc.time()
    user  system elapsed 
-  0.410   0.152  28.662 
+  0.464   0.208  36.814 

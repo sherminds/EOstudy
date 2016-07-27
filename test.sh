@@ -12,3 +12,9 @@ ARG1=${1:-${BIP}}
 fi
 echo "${ARG1}"
 
+if [ -f "R/Backup_Rout/send-reminder_${1}.Rout" ];
+then
+printf "ATTENTION! \n    Reminders have already been sent once for ${1}! \n    Aborting.\n\n"
+exit 1
+fi
+

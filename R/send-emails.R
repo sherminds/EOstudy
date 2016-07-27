@@ -1,3 +1,6 @@
+# Option not to print the input in the .Rout file
+options(echo = FALSE)
+
 # First read in the arguments listed at the command line
 args <- (commandArgs(TRUE))
 
@@ -68,6 +71,7 @@ Flo Debarre, Nicolas Rode, Shermin de Silva, Line Ugelvig.
   cmdemail <- paste('printf "From: EO study <eostudy.2017@gmail.com>\nTo: ', CONTACTEMAIL, '\n', wholeemail, '" | /usr/sbin/sendmail -F "EO study" -f "eostudy.2017@gmail.com" "', CONTACTEMAIL, '"', sep = '')
 
   system(cmdemail)
+  print(ADNAME)
   return(ADNAME) # Way to check that the function has been evaluated
 }
 

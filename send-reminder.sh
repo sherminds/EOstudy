@@ -11,6 +11,13 @@ fi
 
 echo "${1}"
 
+# Check that reminders have not already been sent
+if [ -f "R/Backup_Rout/send-reminder_${1}.Rout" ];
+then
+printf "ATTENTION! \n    Reminders have already been sent once for ${1}! \n    Aborting.\n\n"
+exit 1
+fi
+
 # DOWNLOAD THE DATA
 # Get today's date
 todaydate=$(date +%Y-%m-%d)
@@ -31,9 +38,13 @@ cp data/responses.csv data/responses${todaydate}.csv
 # Run the R script that will generate the pages
 # (the series of '" are here because we need " for the R argument to be considered as text, 
 #  the args have to be within ', but $ is expanded within ")
-printf "Sending reminders...\nNOTE: This takes a while because there is a 4-second pause between two emails (otherwise Gmail complains)."
+printf "\nSending reminders...\nNOTE: This takes a while because there is a 4-second pause between two emails (otherwise Gmail complains).\n\n"
 cd R/
 R CMD BATCH --no-save --no-restore '--args themonth="'"${1}"'"' send-reminder.R
 cd ../
 
-less R/send-reminder.Rout
+# Keep a copy of the Rout file as a reminder that reminders have been send.
+cp R/send-reminder.Rout R/Backup_Rout/send-reminder_${1}.Rout
+
+# Check the output
+less R/Backup_Rout/send-reminder_${1}.Rout
