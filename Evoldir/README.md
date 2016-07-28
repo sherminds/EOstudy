@@ -66,8 +66,8 @@ Invited_nb | Total number of featured speakers (keynote+invited)
 Invited_W	| Number of female featured speakers (keynote+invited)
 Instructor_nb | Total number of instructors (in case of course)	
 Instructor_W | Number of female instructors (in case of course)	
-Org_nb | Total number of organizers (either local org. committee, or unspecified)	
-Org_W	| Number of female organizers
+Org_nb | Total number of organizers (either local org. committee, or unspecified). *Enter 0 if no information at all about any kind of organizers (not NA)*.	
+Org_W	| Number of female organizers *Enter 0 if no info (see line above)*
 SciCom_nb | Total number of people in Scientific Committee (in case it is specified)	
 SciCom_W | Number of women in scientific committee (in case it is specified)
 Org_name1 | Last name of the main organizer	
