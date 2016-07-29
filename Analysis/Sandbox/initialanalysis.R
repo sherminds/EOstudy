@@ -30,10 +30,17 @@ plot(adata$rOrg, adata$rInv, xlim = c(0, 1), ylim = c(0, 1), xlab = "Prop. W amo
 aOI  <- lm(rInv~rOrg, data=adata)
 abline(aOI)
 
+# Histogram of proportion of women
+hist(adata$rInv, xlim=c(0,1), breaks=seq(-0.025,1.0,by=0.05), main = "AllData, Prop invited women", xlab = "Prop. invited women")
+
 # Those who replied
 aa <- adata[!is.na(adata$Org_reply1), ]
 # Check consistency when merging data
 all(aa$Ad_ID == aa$Event.name)
+
+# Histogram of proportion of women
+hist(aa$rInv, xlim=c(0,1), breaks=seq(-0.025,1.0,by=0.05), main = "Only replies, Prop invited women", xlab = "Prop. invited women", col="red", freq=TRUE)
+hist(aa[aa$Question.2=="Yes",]$rInv, xlim=c(0,1), breaks=seq(-0.025,1.0,by=0.05), main = "Only replies, Prop invited women", xlab = "Prop. invited women", col="yellow", add=TRUE, freq=TRUE)
 
 # Check lines where people corrected the result
 checkno <- aa[aa$Question.0=="No",]
