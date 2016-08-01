@@ -1,5 +1,5 @@
 
-# Get data from the evoldir website
+# Get data from the evoldir website (Flo)
 
 type
 ```
@@ -17,7 +17,7 @@ This (replace `Month` by the 3-letter month)
 
 ## Tasks
 
- 1) Add the ads in the AllData file on Google Drive
+ 1) Add the ads in the AllData file on Google Drive (Flo)
    Copy-paste the list generated with the above-mentionned script ad the end of the table.
 
  2) Fill in the summary file
@@ -26,26 +26,27 @@ This (replace `Month` by the 3-letter month)
 
  3) Fill in the Data set
 
-   For each ad, fill in the AllData table in Google drive 
+   For each ad, fill in the AllData table in Google drive (see below)
 
 ## Hesitations
 
-** If you have any hesitation about an entry, please flag it with a bright background color** 
+** If you have any hesitation about an entry, please flag it with a bright background color** (e.g., yellow, red, but do not use gray which is reserved for non-included ads).
 
 ## Inclusion rule
 
 Set include = FALSE if
 
- - no information on invited speakers/info at all (neither in ad nor website)
+ - event is a duplicate (has already been announced and is hence already listed in the AllData table);
+ - no information on invited speakers/info at all (neither in ad nor website; happens for instance for "save the date" type of ads);
  - if Course: if run by private company like prstatistics (we want to focus on "academic" events). 
 
-AND do put a comment in the Comments column (last one) to justify the decision. 
+**AND** do put a comment in the Comments column (last one) to justify the decision. 
 
-Note: Do include Courses if there are only instructors listed. The `Type` column is here to help distinguish between Courses, Workshops and Conferences, and hence the different types of "invited speakers". 
+Note: Do include Courses even if there are only instructors listed. The `Type` column is here to help distinguish between Courses, Workshops and Conferences, and hence the different types of "invited speakers". 
 
-## Assumptions
+## Organizers
 
-If no other piece of information is found about the organizers, assume that the person who sent the evoldir email is an organizers. We need to try to always fill in entries for the organizers as well.
+If no single piece of information is found about the organizers (neither SciComm nor Organizers), enter zeros ("0") in the `Org_nb` and `Org_W` columns. We need to always fill in entries for the organizers, otherwise the columns won't appear in the questionnaire and the contact person will not have a chance to enter the information.
 
 ## Contents of AllData
 
