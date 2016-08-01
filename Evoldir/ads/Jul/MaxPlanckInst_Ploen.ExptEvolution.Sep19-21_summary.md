@@ -5,6 +5,10 @@
 
 ## Invited speakers
 
+Ellen Decaestecker  
+Chris Eizaguirre  
+Ursula Gaedke  
+Blake Mathews  
 
 ## Instructors
 
@@ -14,5 +18,7 @@
 
 ## Organizing committee
 
+Lutz Becks
+Teppo Hiltunen
 
 ## Scientific committee

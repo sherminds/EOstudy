@@ -14,5 +14,9 @@
 
 ## Organizing committee
 
+Max Conway, University of Cambridge
+Pietro Lio', University of Cambridge
+Oliver Stegle, EMBL-EBI
+Lara Urban, EMBl-EBI
 
 ## Scientific committee
