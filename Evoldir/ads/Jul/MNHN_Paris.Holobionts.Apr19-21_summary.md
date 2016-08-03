@@ -13,6 +13,6 @@
 
 
 ## Organizing committee
-
+Ellinor Michel
 
 ## Scientific committee
