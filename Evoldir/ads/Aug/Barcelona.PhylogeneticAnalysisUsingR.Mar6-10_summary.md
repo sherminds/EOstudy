@@ -5,40 +5,22 @@
 
 ## Invited speakers
 
-M Arkhat Abzhanov  
-F Deepa Agashe 
-F Doris Bachtrog 
-F Adriana Briscoe 
-M Jean-Francois Ferveu
-M Jonathan Flint 
-M Nicolas Gompel 
-F Gaiti Hasan 
-F Kavita Jain 
-M Mark Kirkpatrick 
-M Krushnamegh Kunte 
-F Christen Mirth 
-F Antónia Monteiro 
-M Richard F. Mott 
-M Nipam Patel
-M George H. Perry
-M Benjamin Prud’homme 
-F Catherine Rankin 
-M Vijay Sharma 
-M L. S. Shashidhara 
-M Diethard Tautz 
-M K. Vijayraghavan
 
 ## Instructors
+Dr. Emmanuel Paradis (M)
+Dr. Klaus Schliep (M)
 
 
 # Organisers
 
 
 ## Organizing committee
+<<<<<<< HEAD
 
-Deepa Agashe  
-Gaiti Hasan  
-Krushnamegh Kunte
 
+
+=======
+Company; Transmitting Science
+>>>>>>> 88f4a2c5cf66139628e06b00db74041232c205cf
 
 ## Scientific committee

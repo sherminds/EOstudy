@@ -4,7 +4,7 @@
 
 
 ## Invited speakers
-
+Dr. Sylvia Cremer
 
 ## Instructors
 
@@ -13,6 +13,9 @@
 
 
 ## Organizing committee
-
+Frank Jiggins
+Sinead English
+Alexandre Leitão
+Mara Lawniczak
 
 ## Scientific committee
