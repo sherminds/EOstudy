@@ -13,6 +13,6 @@
 
 
 ## Organizing committee
-
+Dr. Miguel Gallach (M)
 
 ## Scientific committee
