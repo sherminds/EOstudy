@@ -8,11 +8,14 @@
 
 ## Instructors
 
+Rosana Rocha  
+Gretchen Lambert  
 
 # Organisers
 
 
 ## Organizing committee
 
+Rachel Collin
 
 ## Scientific committee

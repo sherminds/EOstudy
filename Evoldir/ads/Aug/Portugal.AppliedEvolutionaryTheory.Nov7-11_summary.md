@@ -5,6 +5,10 @@
 
 ## Invited speakers
 
+Claudia Bank  
+Rafael Guerrero  
+Stephan Peischl  
+
 
 ## Instructors
 
@@ -14,5 +18,6 @@
 
 ## Organizing committee
 
+Pedro Fernandes
 
 ## Scientific committee
