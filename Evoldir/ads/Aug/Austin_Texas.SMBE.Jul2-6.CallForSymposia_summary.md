@@ -13,6 +13,9 @@
 
 
 ## Organizing committee
+Claus Wilke (M)
+Howard Ochman (M)
+Nancy Moran (F)
 
 
 ## Scientific committee
