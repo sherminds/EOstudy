@@ -13,6 +13,12 @@ This (replace `Month` by the 3-letter month)
 - copies the list of ads in the working directory, to later include it in the file with all data.
 - creates `_summary.md` file for each ad, that will be filled in later.
 
+Then synchronize with Github. May need to first
+```{sh}
+git pull origin master
+```
+to download the changes in `_summary.md` files done by coworkers. 
+
 # Compile evoldir data
 
 ## Tasks
